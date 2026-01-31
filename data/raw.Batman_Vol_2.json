@@ -1,0 +1,330 @@
+{
+  "series": "Batman Vol 2",
+  "baseUrl": "https://dc.fandom.com/wiki/Batman_Vol_2_{issue}",
+  "issues": [
+    {
+      "issueNumber": 1,
+      "title": "Batman Volume 2 #1",
+      "releaseDate": "September 21, 2011",
+      "antagonists": [
+        {
+          "name": "Arkham Inmates",
+          "url": "https://dc.fandom.com/wiki/Arkham_Asylum",
+          "imageUrl": "/images/arkham-asylum.jpg"
+        },
+        {
+          "name": "Ventriloquist",
+          "url": "https://dc.fandom.com/wiki/Arnold_Wesker_(Prime_Earth)",
+          "imageUrl": "/images/arnold-wesker-prime-earth.jpg"
+        },
+        {
+          "name": "Clayface",
+          "url": "https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)",
+          "imageUrl": "/images/basil-karlo-prime-earth.jpg"
+        },
+        {
+          "name": "Circus of Strange",
+          "url": "https://dc.fandom.com/wiki/Circus_of_Strange",
+          "imageUrl": "/images/circus-of-strange.jpg"
+        },
+        {
+          "name": "Professor Pyg",
+          "url": "https://dc.fandom.com/wiki/Lazlo_Valentin_(Prime_Earth)",
+          "imageUrl": "/images/lazlo-valentin-prime-earth.jpg"
+        },
+        {
+          "name": "Phosphorus Rex",
+          "url": "https://dc.fandom.com/wiki/Phosphorus_Rex_(Prime_Earth)",
+          "imageUrl": "/images/phosphorus-rex-prime-earth.jpg"
+        },
+        {
+          "name": "El Flamingo",
+          "url": "https://dc.fandom.com/wiki/Eduardo_Flamingo_(Prime_Earth)",
+          "imageUrl": "/images/eduardo-flamingo-prime-earth.jpg"
+        },
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Two-Face",
+          "url": "https://dc.fandom.com/wiki/Harvey_Dent_(Prime_Earth)",
+          "imageUrl": "/images/harvey-dent-prime-earth.jpg"
+        },
+        {
+          "name": "James Gordon, Jr.",
+          "url": "https://dc.fandom.com/wiki/James_Gordon,_Jr._(Prime_Earth)",
+          "imageUrl": "/images/james-gordon-jr-prime-earth.jpg"
+        },
+        {
+          "name": "Black Mask",
+          "url": "https://dc.fandom.com/wiki/Jeremiah_Arkham_(Prime_Earth)",
+          "imageUrl": "/images/jeremiah-arkham-prime-earth.jpg"
+        },
+        {
+          "name": "Scarecrow",
+          "url": "https://dc.fandom.com/wiki/Jonathan_Crane_(Prime_Earth)",
+          "imageUrl": "/images/jonathan-crane-prime-earth.jpg"
+        },
+        {
+          "name": "Mister Freeze",
+          "url": "https://dc.fandom.com/wiki/Victor_Fries_(Prime_Earth)",
+          "imageUrl": "/images/victor-fries-prime-earth.jpg"
+        },
+        {
+          "name": "Victor Zsasz",
+          "url": "https://dc.fandom.com/wiki/Victor_Zsasz_(Prime_Earth)",
+          "imageUrl": "/images/victor-zsasz-prime-earth.jpg"
+        },
+        {
+          "name": "Killer Croc",
+          "url": "https://dc.fandom.com/wiki/Waylon_Jones_(Prime_Earth)",
+          "imageUrl": "/images/waylon-jones-prime-earth.jpg"
+        },
+        {
+          "name": "The Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 2,
+      "title": "Batman Volume 2 #2",
+      "releaseDate": "October 19, 2011",
+      "antagonists": [
+        {
+          "name": "The Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talon",
+          "url": "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)",
+          "imageUrl": "/images/william-cobb-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 3,
+      "title": "Batman Volume 2 #3",
+      "releaseDate": "November 16, 2011",
+      "antagonists": [
+        {
+          "name": "The Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talon",
+          "url": "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)",
+          "imageUrl": "/images/william-cobb-prime-earth.jpg"
+        },
+        {
+          "name": "Alton Carver",
+          "url": "https://dc.fandom.com/wiki/Alton_Carver_(Prime_Earth)",
+          "imageUrl": "/images/alton-carver-prime-earth.jpg"
+        },
+        {
+          "name": "Calvin Rose",
+          "url": "https://dc.fandom.com/wiki/Calvin_Rose_(Prime_Earth)",
+          "imageUrl": "/images/calvin-rose-prime-earth.jpg"
+        },
+        {
+          "name": "Whisper Gang",
+          "url": "https://dc.fandom.com/wiki/Whisper_Gang",
+          "imageUrl": "/images/whisper-gang.jpg"
+        },
+        {
+          "name": "Luka Volk",
+          "url": "https://dc.fandom.com/wiki/Luka_Volk_(Prime_Earth)",
+          "imageUrl": "/images/luka-volk-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 4,
+      "title": "Batman Volume 2 #4",
+      "releaseDate": "December 21, 2011",
+      "antagonists": [
+        {
+          "name": "The Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talon",
+          "url": "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)",
+          "imageUrl": "/images/william-cobb-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 5,
+      "title": "Batman Volume 2 #5",
+      "releaseDate": "January 18, 2012",
+      "antagonists": [
+        {
+          "name": "The Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talon",
+          "url": "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)",
+          "imageUrl": "/images/william-cobb-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 6,
+      "title": "Batman Volume 2 #6",
+      "releaseDate": "February 15, 2012",
+      "antagonists": [
+        {
+          "name": "The Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talon",
+          "url": "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)",
+          "imageUrl": "/images/william-cobb-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 7,
+      "title": "Batman Volume 2 #7",
+      "releaseDate": "March 21, 2012",
+      "antagonists": [
+        {
+          "name": "The Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talons",
+          "url": "https://dc.fandom.com/wiki/Talons",
+          "imageUrl": "/images/talons.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 8,
+      "title": "Batman Volume 2 #8",
+      "releaseDate": "April 18, 2012",
+      "antagonists": [
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talons",
+          "url": "https://dc.fandom.com/wiki/Talons",
+          "imageUrl": "/images/talons.jpg"
+        },
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 9,
+      "title": "Batman Volume 2 #9",
+      "releaseDate": "May 9, 2012",
+      "antagonists": [
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talons",
+          "url": "https://dc.fandom.com/wiki/Talons",
+          "imageUrl": "/images/talons.jpg"
+        },
+        {
+          "name": "Talon (Alton Carver)",
+          "url": "https://dc.fandom.com/wiki/Alton_Carver_(Prime_Earth)",
+          "imageUrl": "/images/alton-carver-prime-earth.jpg"
+        },
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 10,
+      "title": "Batman Volume 2 #10",
+      "releaseDate": "June 13, 2012",
+      "antagonists": [
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Lincoln March",
+          "url": "https://dc.fandom.com/wiki/Lincoln_March_(Prime_Earth)",
+          "imageUrl": "/images/lincoln-march-prime-earth.jpg"
+        },
+        {
+          "name": "Talons",
+          "url": "https://dc.fandom.com/wiki/Talons",
+          "imageUrl": "/images/talons.jpg"
+        },
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talon",
+          "url": "https://dc.fandom.com/wiki/Talons",
+          "imageUrl": "/images/talons.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 11,
+      "title": "Batman Volume 2 #11",
+      "releaseDate": "July 11, 2012",
+      "antagonists": [
+        {
+          "name": "Lincoln March",
+          "url": "https://dc.fandom.com/wiki/Lincoln_March_(Prime_Earth)",
+          "imageUrl": "/images/lincoln-march-prime-earth.jpg"
+        },
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Talon",
+          "url": "https://dc.fandom.com/wiki/Talons",
+          "imageUrl": "/images/talons.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 12,
+      "title": "Batman Volume 2 #12",
+      "releaseDate": "August 8, 2012",
+      "antagonists": [
+        {
+          "name": "Tiger Shark",
+          "url": "https://dc.fandom.com/wiki/Tiger_Shark_(Prime_Earth)",
+          "imageUrl": "/images/tiger-shark-prime-earth.jpg"
+        }
+      ]
+    }
+  ]
+}

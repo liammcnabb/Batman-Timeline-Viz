@@ -122,14 +122,7 @@ export class SeriesName {
    */
   static getSupportedSeries(): SeriesName[] {
     return [
-      new SeriesName('Amazing Spider-Man Vol 1'),
-      new SeriesName('Amazing Spider-Man Annual Vol 1'),
-      new SeriesName('Untold Tales of Spider-Man Vol 1'),
-      new SeriesName('Peter Parker, The Spectacular Spider-Man Vol 1'),
-      new SeriesName('Web of Spider-Man Vol 1'),
-      new SeriesName('Spider-Man Vol 1'),
-      new SeriesName('Sensational Spider-Man Vol 1'),
-      new SeriesName('Spider-Man Unlimited Vol 1')
+      new SeriesName('Batman Vol 2')
     ];
   }
 
@@ -147,24 +140,11 @@ export class SeriesName {
 
 /**
  * Series color mapping (supports both formats)
+ * TODO Make this dynamic based on source
  */
 export const SERIES_COLORS: Record<string, string> = {
-  'Amazing Spider-Man Vol 1': '#e74c3c',
-  'Amazing_Spider-Man_Vol_1': '#e74c3c',
-  'Amazing Spider-Man Annual Vol 1': '#9b59b6',
-  'Amazing_Spider-Man_Annual_Vol_1': '#9b59b6',
-  'Untold Tales of Spider-Man Vol 1': '#3498db',
-  'Untold_Tales_of_Spider-Man_Vol_1': '#3498db',
-  'Peter Parker, The Spectacular Spider-Man Vol 1': '#e67e22',
-  'Peter_Parker,_The_Spectacular_Spider-Man_Vol_1': '#e67e22',
-  'Web of Spider-Man Vol 1': '#1abc9c',
-  'Web_of_Spider-Man_Vol_1': '#1abc9c',
-  'Spider-Man Vol 1': '#2ecc71',
-  'Spider-Man_Vol_1': '#2ecc71',
-  'Sensational Spider-Man Vol 1': '#f1c40f',
-  'Sensational_Spider-Man_Vol_1': '#f1c40f',
-  'Spider-Man Unlimited Vol 1': '#8e44ad',
-  'Spider-Man_Unlimited_Vol_1': '#8e44ad'
+  'Batman Vol 2': '#f1c40f',
+  'Batman_Vol_2': '#f1c40f',
 };
 
 /**

@@ -454,7 +454,8 @@ function parseAntagonistsFromHTML(html: string): Antagonist[] {
   const cheerio = require('cheerio');
   const $ = cheerio.load(html);
   const antagonists: Antagonist[] = [];
-  const MARVEL_FANDOM_BASE = 'https://marvel.fandom.com';
+  ///TODO make this dynamic basedo on source
+  const MARVEL_FANDOM_BASE = 'https://dc.fandom.com';
 
   const sections = $('h2');
   

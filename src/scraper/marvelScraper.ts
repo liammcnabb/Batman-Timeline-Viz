@@ -13,13 +13,14 @@ import type { IssueData, RawVillainData, Antagonist } from '../types';
 import { isUnnamedOrInvalidAntagonist } from '../utils/nameValidation';
 
 // Configuration constants
-const MARVEL_FANDOM_BASE = 'https://marvel.fandom.com';
+const MARVEL_FANDOM_BASE = 'https://dc.fandom.com';
+const DC_FANDOM_BASE = 'https://dc.fandom.com';
 
 interface SeriesConfig {
   slugTemplate: string; // e.g., `${MARVEL_FANDOM_BASE}/wiki/Amazing_Spider-Man_Vol_1_{issue}`
   titlePrefix: string;  // e.g., 'Amazing Spider-Man'
 }
-
+/// TODO Replace hardcoded plan scraping
 // Known series configurations (extendable)
 const SERIES_CONFIG: Record<string, SeriesConfig> = {
   'Amazing Spider-Man Vol 1': {
@@ -97,6 +98,10 @@ const SERIES_CONFIG: Record<string, SeriesConfig> = {
   'Spider-Man_Unlimited_Vol_1': {
     slugTemplate: `${MARVEL_FANDOM_BASE}/wiki/Spider-Man_Unlimited_Vol_1_{issue}`,
     titlePrefix: 'Spider-Man Unlimited'
+  },
+  'Batman Vol 2': {
+    slugTemplate: `${DC_FANDOM_BASE}/wiki/Batman_Vol_2_{issue}`,
+    titlePrefix: 'Batman Volume 2'
   }
 };
 const DEFAULT_TIMEOUT = 10000;
@@ -157,8 +162,11 @@ export class MarvelScraper {
       `Starting scrape: ${sortedIssues.length} issues (${min}-${max})`
     );
 
+    ///TODO Convert to dynamic series selection. No backup. Fails if series not found.
     // Resolve and store current series configuration (fallback to ASM Vol 1)
     this.currentSeries = SERIES_CONFIG[volumeName] || SERIES_CONFIG['Amazing Spider-Man Vol 1'];
+
+    // throw new Error(`Series "${volumeName}" cannot be found.`);
 
     const issues: IssueData[] = [];
 
@@ -348,14 +356,26 @@ export class MarvelScraper {
           }
         }
       }
-      
-      return undefined;
+      //If not found, try search for text directly 
+      const releaseDatePreString = "It was published on";
+      const bodyText = $('body').text();
+      const index = bodyText.indexOf(releaseDatePreString);
+      if (index !== -1) {
+        const afterString = bodyText.substring(index + releaseDatePreString.length);
+        /// Date is in format September 21, 2011.
+        const dateMatch = afterString.match(/([A-Za-z]+ \d{1,2}, \d{4})/);
+        if (dateMatch && dateMatch[1]) {
+          return dateMatch[1].trim();
+        }
+      }
     } catch (error) {
       console.warn(
         `Could not parse release date for issue ${issueNumber}: ${error}`
       );
       return undefined;
     }
+    console.warn(`Release date not found for issue ${issueNumber}`);
+    return undefined;
   }
 
   /**
@@ -584,30 +604,36 @@ export class MarvelScraper {
       }
 
       try {
-        const response = await this.axiosClient.get(antagonist.url);
-        
-        if (response.data) {
-          const imageUrl = this.parseCharacterImage(response.data);
-          if (imageUrl) {
-            // Use page URL slug to disambiguate characters with the same display name
-            const filename = this.buildImageFilename(antagonist.name, imageUrl, antagonist.url);
-            const targetPath = path.join(IMAGE_DIR, filename);
-            const savedPath = `/images/${filename}`;
+          console.log(`[scrapeVillainImages] Fetching: ${antagonist.name} (${antagonist.url})`);
+          const response = await this.axiosClient.get(antagonist.url);
+          if (response.data) {
+            const imageUrl = this.parseCharacterImage(response.data);
+            if (imageUrl) {
+              console.log(`[scrapeVillainImages] Image URL found for: ${antagonist.name} -> ${imageUrl}`);
+              // Use page URL slug to disambiguate characters with the same display name
+              const filename = this.buildImageFilename(antagonist.name, imageUrl, antagonist.url);
+              const targetPath = path.join(IMAGE_DIR, filename);
+              const savedPath = `/images/${filename}`;
 
-            if (fs.existsSync(targetPath)) {
-              antagonist.imageUrl = savedPath; // reuse cached image without logging
+              if (fs.existsSync(targetPath)) {
+                antagonist.imageUrl = savedPath; // reuse cached image without logging
+                console.log(`[scrapeVillainImages] Image already cached for: ${antagonist.name}`);
+              } else {
+                console.log(`[scrapeVillainImages] Downloading image for: ${antagonist.name}`);
+                const downloadedPath = await this.saveImageLocally(imageUrl, filename);
+                antagonist.imageUrl = downloadedPath; // use local path for reliable loading
+              }
             } else {
-              console.log(`  Scraping image for ${antagonist.name}...`);
-              const downloadedPath = await this.saveImageLocally(imageUrl, filename);
-              antagonist.imageUrl = downloadedPath; // use local path for reliable loading
+              console.warn(`[scrapeVillainImages] No image found for ${antagonist.name} at ${antagonist.url}`);
             }
+          } else {
+            console.warn(`[scrapeVillainImages] No response data for ${antagonist.name} at ${antagonist.url}`);
           }
-        }
-        
-        // Respectful delay between image scrapes
-        await this.delay(REQUEST_DELAY_MS);
+
+          // Respectful delay between image scrapes
+          await this.delay(REQUEST_DELAY_MS);
       } catch (error) {
-        console.warn(`    Failed to scrape image for ${antagonist.name}: ${error}`);
+          console.error(`[scrapeVillainImages] Error scraping image for ${antagonist.name}:`, error);
         // Continue with other villains even if one fails
       }
     }
