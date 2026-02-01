@@ -17,7 +17,9 @@ export class SeriesName {
    * @param name - Series name in any format
    */
   constructor(name: string) {
-    this.canonical = SeriesName.normalize(name);
+    // Trim whitespace, then remove leading/trailing single or double quotes
+    const sanitized = name.trim().replace(/^['"]+|['"]+$/g, '');
+    this.canonical = SeriesName.normalize(sanitized);
   }
 
   /**
@@ -51,7 +53,11 @@ export class SeriesName {
    * @returns Slug format: "Amazing_Spider-Man_Vol_1"
    */
   toSlug(): string {
-    return this.canonical.replace(/\s+/g, '_');
+    // Capitalize each word and join with underscores for wiki URL
+    return this.canonical
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join('_');
   }
 
   /**
