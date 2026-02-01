@@ -4,7 +4,7 @@
   "issues": [
     {
       "issueNumber": 1,
-      "title": "Batman Volume 2 #1",
+      "title": "Batman Vol 2 #1",
       "releaseDate": "September 21, 2011",
       "antagonists": [
         {
@@ -91,7 +91,7 @@
     },
     {
       "issueNumber": 2,
-      "title": "Batman Volume 2 #2",
+      "title": "Batman Vol 2 #2",
       "releaseDate": "October 19, 2011",
       "antagonists": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "issueNumber": 3,
-      "title": "Batman Volume 2 #3",
+      "title": "Batman Vol 2 #3",
       "releaseDate": "November 16, 2011",
       "antagonists": [
         {
@@ -145,7 +145,7 @@
     },
     {
       "issueNumber": 4,
-      "title": "Batman Volume 2 #4",
+      "title": "Batman Vol 2 #4",
       "releaseDate": "December 21, 2011",
       "antagonists": [
         {
@@ -162,7 +162,7 @@
     },
     {
       "issueNumber": 5,
-      "title": "Batman Volume 2 #5",
+      "title": "Batman Vol 2 #5",
       "releaseDate": "January 18, 2012",
       "antagonists": [
         {
@@ -179,7 +179,7 @@
     },
     {
       "issueNumber": 6,
-      "title": "Batman Volume 2 #6",
+      "title": "Batman Vol 2 #6",
       "releaseDate": "February 15, 2012",
       "antagonists": [
         {
@@ -196,7 +196,7 @@
     },
     {
       "issueNumber": 7,
-      "title": "Batman Volume 2 #7",
+      "title": "Batman Vol 2 #7",
       "releaseDate": "March 21, 2012",
       "antagonists": [
         {
@@ -213,7 +213,7 @@
     },
     {
       "issueNumber": 8,
-      "title": "Batman Volume 2 #8",
+      "title": "Batman Vol 2 #8",
       "releaseDate": "April 18, 2012",
       "antagonists": [
         {
@@ -235,7 +235,7 @@
     },
     {
       "issueNumber": 9,
-      "title": "Batman Volume 2 #9",
+      "title": "Batman Vol 2 #9",
       "releaseDate": "May 9, 2012",
       "antagonists": [
         {
@@ -262,7 +262,7 @@
     },
     {
       "issueNumber": 10,
-      "title": "Batman Volume 2 #10",
+      "title": "Batman Vol 2 #10",
       "releaseDate": "June 13, 2012",
       "antagonists": [
         {
@@ -294,7 +294,7 @@
     },
     {
       "issueNumber": 11,
-      "title": "Batman Volume 2 #11",
+      "title": "Batman Vol 2 #11",
       "releaseDate": "July 11, 2012",
       "antagonists": [
         {
@@ -316,7 +316,7 @@
     },
     {
       "issueNumber": 12,
-      "title": "Batman Volume 2 #12",
+      "title": "Batman Vol 2 #12",
       "releaseDate": "August 8, 2012",
       "antagonists": [
         {
@@ -325,6 +325,869 @@
           "imageUrl": "/images/tiger-shark-prime-earth.jpg"
         }
       ]
+    },
+    {
+      "issueNumber": 13,
+      "title": "Batman Vol 2 #13",
+      "releaseDate": "October 10, 2012",
+      "antagonists": [
+        {
+          "name": "Harley Quinn",
+          "url": "https://dc.fandom.com/wiki/Harleen_Quinzel_(Prime_Earth)",
+          "imageUrl": "/images/harleen-quinzel-prime-earth.jpg"
+        },
+        {
+          "name": "The Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 14,
+      "title": "Batman Vol 2 #14",
+      "releaseDate": "November 14, 2012",
+      "antagonists": [
+        {
+          "name": "Harley Quinn",
+          "url": "https://dc.fandom.com/wiki/Harleen_Quinzel_(Prime_Earth)",
+          "imageUrl": "/images/harleen-quinzel-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 15,
+      "title": "Batman Vol 2 #15",
+      "releaseDate": "December 12, 2012",
+      "antagonists": [
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 16,
+      "title": "Batman Vol 2 #16",
+      "releaseDate": "January 16, 2013",
+      "antagonists": [
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        },
+        {
+          "name": "Clayface",
+          "url": "https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)",
+          "imageUrl": "/images/basil-karlo-prime-earth.jpg"
+        },
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Two-Face",
+          "url": "https://dc.fandom.com/wiki/Harvey_Dent_(Prime_Earth)",
+          "imageUrl": "/images/harvey-dent-prime-earth.jpg"
+        },
+        {
+          "name": "Scarecrow",
+          "url": "https://dc.fandom.com/wiki/Jonathan_Crane_(Prime_Earth)",
+          "imageUrl": "/images/jonathan-crane-prime-earth.jpg"
+        },
+        {
+          "name": "Penguin",
+          "url": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+          "imageUrl": "/images/oswald-cobblepot-prime-earth.jpg"
+        },
+        {
+          "name": "Mister Freeze",
+          "url": "https://dc.fandom.com/wiki/Victor_Fries_(Prime_Earth)",
+          "imageUrl": "/images/victor-fries-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 17,
+      "title": "Batman Vol 2 #17",
+      "releaseDate": "February 13, 2013",
+      "antagonists": [
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 18,
+      "title": "Batman Vol 2 #18",
+      "releaseDate": "March 13, 2013",
+      "antagonists": [
+        {
+          "name": "Marcus Row",
+          "url": "https://dc.fandom.com/wiki/Marcus_Row_(Prime_Earth)",
+          "imageUrl": "/images/marcus-row-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 19,
+      "title": "Batman Vol 2 #19",
+      "releaseDate": "April 10, 2013",
+      "antagonists": [
+        {
+          "name": "Clayface",
+          "url": "https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)",
+          "imageUrl": "/images/basil-karlo-prime-earth.jpg"
+        },
+        {
+          "name": "Reaper",
+          "url": "https://dc.fandom.com/wiki/Reaper_(Prime_Earth)",
+          "imageUrl": "/images/reaper-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 20,
+      "title": "Batman Vol 2 #20",
+      "releaseDate": "May 8, 2013",
+      "antagonists": [
+        {
+          "name": "Clayface",
+          "url": "https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)",
+          "imageUrl": "/images/basil-karlo-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 21,
+      "title": "Batman Vol 2 #21",
+      "releaseDate": "June 12, 2013",
+      "antagonists": [
+        {
+          "name": "Edward Nygma",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Red Hood Gang",
+          "url": "https://dc.fandom.com/wiki/Red_Hood_Gang_(Prime_Earth)",
+          "imageUrl": "/images/red-hood-gang-prime-earth.jpg"
+        },
+        {
+          "name": "Red Hood One",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 22,
+      "title": "Batman Vol 2 #22",
+      "releaseDate": "July 10, 2013",
+      "antagonists": [
+        {
+          "name": "Edward Nygma",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Penguin",
+          "url": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+          "imageUrl": "/images/oswald-cobblepot-prime-earth.jpg"
+        },
+        {
+          "name": "Red Hood Gang",
+          "url": "https://dc.fandom.com/wiki/Red_Hood_Gang_(Prime_Earth)",
+          "imageUrl": "/images/red-hood-gang-prime-earth.jpg"
+        },
+        {
+          "name": "Red Hood One",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 23,
+      "title": "Batman Vol 2 #23",
+      "releaseDate": "August 14, 2013",
+      "antagonists": [
+        {
+          "name": "Edward Nygma",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Red Hood Gang",
+          "url": "https://dc.fandom.com/wiki/Red_Hood_Gang_(Prime_Earth)",
+          "imageUrl": "/images/red-hood-gang-prime-earth.jpg"
+        },
+        {
+          "name": "Red Hood One",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 24,
+      "title": "Batman Vol 2 #24",
+      "releaseDate": "October 9, 2013",
+      "antagonists": [
+        {
+          "name": "The Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Red Hood Gang",
+          "url": "https://dc.fandom.com/wiki/Red_Hood_Gang_(Prime_Earth)",
+          "imageUrl": "/images/red-hood-gang-prime-earth.jpg"
+        },
+        {
+          "name": "Red Hood One",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 25,
+      "title": "Batman Vol 2 #25",
+      "releaseDate": "November 13, 2013",
+      "antagonists": [
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Doctor Death",
+          "url": "https://dc.fandom.com/wiki/Karl_Helfern_(Prime_Earth)",
+          "imageUrl": "/images/karl-helfern-prime-earth.jpg"
+        },
+        {
+          "name": "Lucius Fox",
+          "url": "https://dc.fandom.com/wiki/Lucius_Fox_(Prime_Earth)",
+          "imageUrl": "/images/lucius-fox-prime-earth.jpg"
+        },
+        {
+          "name": "Marcus Row",
+          "url": "https://dc.fandom.com/wiki/Marcus_Row_(Prime_Earth)",
+          "imageUrl": "/images/marcus-row-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 26,
+      "title": "Batman Vol 2 #26",
+      "releaseDate": "December 11, 2013",
+      "antagonists": [
+        {
+          "name": "Doctor Death",
+          "url": "https://dc.fandom.com/wiki/Karl_Helfern_(Prime_Earth)",
+          "imageUrl": "/images/karl-helfern-prime-earth.jpg"
+        },
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 27,
+      "title": "Batman Vol 2 #27",
+      "releaseDate": "January 22, 2014",
+      "antagonists": [
+        {
+          "name": "Dan Corrigan",
+          "url": "https://dc.fandom.com/wiki/Daniel_Corrigan_(Prime_Earth)",
+          "imageUrl": "/images/daniel-corrigan-prime-earth.jpg"
+        },
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Gillian B. Loeb",
+          "url": "https://dc.fandom.com/wiki/Gillian_B._Loeb_(Prime_Earth)",
+          "imageUrl": "/images/gillian-b-loeb-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 28,
+      "title": "Batman Vol 2 #28",
+      "releaseDate": "February 12, 2014",
+      "antagonists": [
+        {
+          "name": "Gotham City Police Department",
+          "url": "https://dc.fandom.com/wiki/Gotham_City_Police_Department",
+          "imageUrl": "/images/gotham-city-police-department.jpg"
+        },
+        {
+          "name": "Selina Kyle",
+          "url": "https://dc.fandom.com/wiki/Selina_Kyle_(Prime_Earth)",
+          "imageUrl": "/images/selina-kyle-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 29,
+      "title": "Batman Vol 2 #29",
+      "releaseDate": "March 12, 2014",
+      "antagonists": [
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Joe Chill",
+          "url": "https://dc.fandom.com/wiki/Joseph_Chilton_(Prime_Earth)",
+          "imageUrl": "/images/joseph-chilton-prime-earth.jpg"
+        },
+        {
+          "name": "Doctor Death",
+          "url": "https://dc.fandom.com/wiki/Karl_Helfern_(Prime_Earth)",
+          "imageUrl": "/images/karl-helfern-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 30,
+      "title": "Batman Vol 2 #30",
+      "releaseDate": "April 16, 2014",
+      "antagonists": [
+        {
+          "name": "The Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 31,
+      "title": "Batman Vol 2 #31",
+      "releaseDate": "May 28, 2014",
+      "antagonists": [
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 32,
+      "title": "Batman Vol 2 #32",
+      "releaseDate": "June 25, 2014",
+      "antagonists": [
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 33,
+      "title": "Batman Vol 2 #33",
+      "releaseDate": "July 23, 2014",
+      "antagonists": [
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 34,
+      "title": "Batman Vol 2 #34",
+      "releaseDate": "August 13, 2014",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 35,
+      "title": "Batman Vol 2 #35",
+      "releaseDate": "October 8, 2014",
+      "antagonists": [
+        {
+          "name": "Justice League",
+          "url": "https://dc.fandom.com/wiki/Justice_League_(Prime_Earth)",
+          "imageUrl": "/images/justice-league-prime-earth.jpg"
+        },
+        {
+          "name": "Aquaman",
+          "url": "https://dc.fandom.com/wiki/Arthur_Curry_(Prime_Earth)",
+          "imageUrl": "/images/arthur-curry-prime-earth.jpg"
+        },
+        {
+          "name": "Flash",
+          "url": "https://dc.fandom.com/wiki/Barry_Allen_(Prime_Earth)",
+          "imageUrl": "/images/barry-allen-prime-earth.jpg"
+        },
+        {
+          "name": "Wonder Woman",
+          "url": "https://dc.fandom.com/wiki/Diana_of_Themyscira_(Prime_Earth)",
+          "imageUrl": "/images/diana-of-themyscira-prime-earth.jpg"
+        },
+        {
+          "name": "Superman",
+          "url": "https://dc.fandom.com/wiki/Kal-El_(Prime_Earth)",
+          "imageUrl": "/images/kal-el-prime-earth.jpg"
+        },
+        {
+          "name": "Scarecrow",
+          "url": "https://dc.fandom.com/wiki/Jonathan_Crane_(Prime_Earth)",
+          "imageUrl": "/images/jonathan-crane-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 36,
+      "title": "Batman Vol 2 #36",
+      "releaseDate": "November 12, 2014",
+      "antagonists": [
+        {
+          "name": "Eric Border",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        },
+        {
+          "name": "Justice League",
+          "url": "https://dc.fandom.com/wiki/Justice_League_(Prime_Earth)",
+          "imageUrl": "/images/justice-league-prime-earth.jpg"
+        },
+        {
+          "name": "Superman",
+          "url": "https://dc.fandom.com/wiki/Kal-El_(Prime_Earth)",
+          "imageUrl": "/images/kal-el-prime-earth.jpg"
+        },
+        {
+          "name": "Aquaman",
+          "url": "https://dc.fandom.com/wiki/Arthur_Curry_(Prime_Earth)",
+          "imageUrl": "/images/arthur-curry-prime-earth.jpg"
+        },
+        {
+          "name": "The Flash",
+          "url": "https://dc.fandom.com/wiki/Barry_Allen_(Prime_Earth)",
+          "imageUrl": "/images/barry-allen-prime-earth.jpg"
+        },
+        {
+          "name": "Wonder Woman",
+          "url": "https://dc.fandom.com/wiki/Diana_of_Themyscira_(Prime_Earth)",
+          "imageUrl": "/images/diana-of-themyscira-prime-earth.jpg"
+        },
+        {
+          "name": "Cyborg",
+          "url": "https://dc.fandom.com/wiki/Victor_Stone_(Prime_Earth)",
+          "imageUrl": "/images/victor-stone-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 37,
+      "title": "Batman Vol 2 #37",
+      "releaseDate": "December 17, 2014",
+      "antagonists": [
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        },
+        {
+          "name": "Joe Chill",
+          "url": "https://dc.fandom.com/wiki/Joseph_Chilton_(Prime_Earth)",
+          "imageUrl": "/images/joseph-chilton-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 38,
+      "title": "Batman Vol 2 #38",
+      "releaseDate": "January 28, 2015",
+      "antagonists": [
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        },
+        {
+          "name": "Crazy Quilt",
+          "url": "https://dc.fandom.com/wiki/Paul_Dekker_(Prime_Earth)",
+          "imageUrl": "/images/paul-dekker-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 39,
+      "title": "Batman Vol 2 #39",
+      "releaseDate": "February 25, 2015",
+      "antagonists": [
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Uriah Boone",
+          "url": "https://dc.fandom.com/wiki/Uriah_Boone_(Prime_Earth)",
+          "imageUrl": "/images/uriah-boone-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 40,
+      "title": "Batman Vol 2 #40",
+      "releaseDate": "April 29, 2015",
+      "antagonists": [
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 41,
+      "title": "Batman Vol 2 #41",
+      "releaseDate": "June 10, 2015",
+      "antagonists": [
+        {
+          "name": "Whisper Gang",
+          "url": "https://dc.fandom.com/wiki/Whisper_Gang",
+          "imageUrl": "/images/whisper-gang.jpg"
+        },
+        {
+          "name": "Joker",
+          "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+          "imageUrl": "/images/joker-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 42,
+      "title": "Batman Vol 2 #42",
+      "releaseDate": "July 8, 2015",
+      "antagonists": [
+        {
+          "name": "Mister Bloom",
+          "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+          "imageUrl": "/images/mister-bloom-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 43,
+      "title": "Batman Vol 2 #43",
+      "releaseDate": "August 12, 2015",
+      "antagonists": [
+        {
+          "name": "Mister Bloom",
+          "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+          "imageUrl": "/images/mister-bloom-prime-earth.jpg"
+        },
+        {
+          "name": "Penguin",
+          "url": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+          "imageUrl": "/images/oswald-cobblepot-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 44,
+      "title": "Batman Vol 2 #44",
+      "releaseDate": "September 9, 2015",
+      "antagonists": [
+        {
+          "name": "Penguin",
+          "url": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+          "imageUrl": "/images/oswald-cobblepot-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 45,
+      "title": "Batman Vol 2 #45",
+      "releaseDate": "October 14, 2015",
+      "antagonists": [
+        {
+          "name": "Mister Bloom",
+          "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+          "imageUrl": "/images/mister-bloom-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 46,
+      "title": "Batman Vol 2 #46",
+      "releaseDate": "November 11, 2015",
+      "antagonists": [
+        {
+          "name": "Gotham Organized Crime",
+          "url": "https://dc.fandom.com/wiki/Gotham_Organized_Crime",
+          "imageUrl": "/images/gotham-organized-crime.jpg"
+        },
+        {
+          "name": "Ventriloquist",
+          "url": "https://dc.fandom.com/wiki/Arnold_Wesker_(Prime_Earth)",
+          "imageUrl": "/images/arnold-wesker-prime-earth.jpg"
+        },
+        {
+          "name": "Black and Whites",
+          "url": "https://dc.fandom.com/wiki/Black_and_Whites",
+          "imageUrl": "/images/black-and-whites.jpg"
+        },
+        {
+          "name": "Penguin",
+          "url": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+          "imageUrl": "/images/oswald-cobblepot-prime-earth.jpg"
+        },
+        {
+          "name": "Black Mask",
+          "url": "https://dc.fandom.com/wiki/Roman_Sionis_(Prime_Earth)",
+          "imageUrl": "/images/roman-sionis-prime-earth.jpg"
+        },
+        {
+          "name": "Great White Shark",
+          "url": "https://dc.fandom.com/wiki/Warren_White_(Prime_Earth)",
+          "imageUrl": "/images/warren-white-prime-earth.jpg"
+        },
+        {
+          "name": "Mister Bloom",
+          "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+          "imageUrl": "/images/mister-bloom-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 47,
+      "title": "Batman Vol 2 #47",
+      "releaseDate": "December 9, 2015",
+      "antagonists": [
+        {
+          "name": "Gotham Organized Crime",
+          "url": "https://dc.fandom.com/wiki/Gotham_Organized_Crime",
+          "imageUrl": "/images/gotham-organized-crime.jpg"
+        },
+        {
+          "name": "Ventriloquist",
+          "url": "https://dc.fandom.com/wiki/Arnold_Wesker_(Prime_Earth)",
+          "imageUrl": "/images/arnold-wesker-prime-earth.jpg"
+        },
+        {
+          "name": "Black and Whites",
+          "url": "https://dc.fandom.com/wiki/Black_and_Whites",
+          "imageUrl": "/images/black-and-whites.jpg"
+        },
+        {
+          "name": "Penguin",
+          "url": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+          "imageUrl": "/images/oswald-cobblepot-prime-earth.jpg"
+        },
+        {
+          "name": "Black Mask",
+          "url": "https://dc.fandom.com/wiki/Roman_Sionis_(Prime_Earth)",
+          "imageUrl": "/images/roman-sionis-prime-earth.jpg"
+        },
+        {
+          "name": "Great White Shark",
+          "url": "https://dc.fandom.com/wiki/Warren_White_(Prime_Earth)",
+          "imageUrl": "/images/warren-white-prime-earth.jpg"
+        },
+        {
+          "name": "Mister Bloom",
+          "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+          "imageUrl": "/images/mister-bloom-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 48,
+      "title": "Batman Vol 2 #48",
+      "releaseDate": "January 20, 2016",
+      "antagonists": [
+        {
+          "name": "Mister Bloom",
+          "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+          "imageUrl": "/images/mister-bloom-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 49,
+      "title": "Batman Vol 2 #49",
+      "releaseDate": "February 10, 2016",
+      "antagonists": [
+        {
+          "name": "Demonic",
+          "url": "https://dc.fandom.com/wiki/Demons",
+          "imageUrl": "/images/demons.jpg"
+        },
+        {
+          "name": "Mister Bloom",
+          "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+          "imageUrl": "/images/mister-bloom-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 50,
+      "title": "Batman Vol 2 #50",
+      "releaseDate": "March 23, 2016",
+      "antagonists": [
+        {
+          "name": "Daryl Gutierrez",
+          "url": "https://dc.fandom.com/wiki/Daryl_Gutierrez_(Prime_Earth)",
+          "imageUrl": "/images/daryl-gutierrez-prime-earth.jpg"
+        },
+        {
+          "name": "Mister Bloom",
+          "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+          "imageUrl": "/images/mister-bloom-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 51,
+      "title": "Batman Vol 2 #51",
+      "releaseDate": "April 27, 2016",
+      "antagonists": [
+        {
+          "name": "Arkham Inmates",
+          "url": "https://dc.fandom.com/wiki/Arkham_Asylum",
+          "imageUrl": "/images/arkham-asylum.jpg"
+        },
+        {
+          "name": "Bane",
+          "url": "https://dc.fandom.com/wiki/Bane_(Prime_Earth)",
+          "imageUrl": "/images/bane-prime-earth.jpg"
+        },
+        {
+          "name": "Clayface",
+          "url": "https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)",
+          "imageUrl": "/images/basil-karlo-prime-earth.jpg"
+        },
+        {
+          "name": "Riddler",
+          "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+          "imageUrl": "/images/edward-nygma-prime-earth.jpg"
+        },
+        {
+          "name": "Scarecrow",
+          "url": "https://dc.fandom.com/wiki/Jonathan_Crane_(Prime_Earth)",
+          "imageUrl": "/images/jonathan-crane-prime-earth.jpg"
+        },
+        {
+          "name": "Poison Ivy",
+          "url": "https://dc.fandom.com/wiki/Pamela_Isley_(Prime_Earth)",
+          "imageUrl": "/images/pamela-isley-prime-earth.jpg"
+        },
+        {
+          "name": "Mister Freeze",
+          "url": "https://dc.fandom.com/wiki/Victor_Fries_(Prime_Earth)",
+          "imageUrl": "/images/victor-fries-prime-earth.jpg"
+        },
+        {
+          "name": "Killer Croc",
+          "url": "https://dc.fandom.com/wiki/Waylon_Jones_(Prime_Earth)",
+          "imageUrl": "/images/waylon-jones-prime-earth.jpg"
+        },
+        {
+          "name": "Court of Owls",
+          "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+          "imageUrl": "/images/court-of-owls-prime-earth.jpg"
+        },
+        {
+          "name": "Gotham Organized Crime",
+          "url": "https://dc.fandom.com/wiki/Gotham_Organized_Crime",
+          "imageUrl": "/images/gotham-organized-crime.jpg"
+        },
+        {
+          "name": "Black and Whites",
+          "url": "https://dc.fandom.com/wiki/Black_and_Whites",
+          "imageUrl": "/images/black-and-whites.jpg"
+        },
+        {
+          "name": "Penguin",
+          "url": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+          "imageUrl": "/images/oswald-cobblepot-prime-earth.jpg"
+        },
+        {
+          "name": "Black Mask",
+          "url": "https://dc.fandom.com/wiki/Roman_Sionis_(Prime_Earth)",
+          "imageUrl": "/images/roman-sionis-prime-earth.jpg"
+        },
+        {
+          "name": "Great White Shark",
+          "url": "https://dc.fandom.com/wiki/Warren_White_(Prime_Earth)",
+          "imageUrl": "/images/warren-white-prime-earth.jpg"
+        }
+      ]
+    },
+    {
+      "issueNumber": 52,
+      "title": "Batman Vol 2 #52",
+      "releaseDate": "May 11, 2016",
+      "antagonists": []
     }
   ]
 }

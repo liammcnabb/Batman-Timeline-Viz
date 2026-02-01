@@ -1,0 +1,31 @@
+{
+  "series": "'batman",
+  "baseUrl": "https://dc.fandom.com/wiki/'batman_{issue}",
+  "issues": [
+    {
+      "issueNumber": 1,
+      "title": "Issue 1 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 2,
+      "title": "Issue 2 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 3,
+      "title": "Issue 3 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 4,
+      "title": "Issue 4 (Failed)",
+      "antagonists": []
+    },
+    {
+      "issueNumber": 5,
+      "title": "Issue 5 (Failed)",
+      "antagonists": []
+    }
+  ]
+}

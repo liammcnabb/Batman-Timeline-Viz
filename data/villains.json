@@ -1,11 +1,11 @@
 {
   "series": "Combined",
-  "processedAt": "2026-01-31T14:29:14.789Z",
+  "processedAt": "2026-02-01T20:40:42.469Z",
   "stats": {
-    "totalVillains": 23,
-    "mostFrequent": "The Court of Owls",
-    "mostFrequentCount": 11,
-    "averageFrequency": 1.87
+    "totalVillains": 51,
+    "mostFrequent": "Joker",
+    "mostFrequentCount": 16,
+    "averageFrequency": 2.86
   },
   "villains": [
     {
@@ -16,8 +16,8 @@
       "imageUrl": "/images/arkham-asylum.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1],
-      "frequency": 1
+      "appearances": [1, 51],
+      "frequency": 2
     },
     {
       "id": "https-dc-fandom-com-wiki-arnold-wesker-prime-earth",
@@ -27,8 +27,8 @@
       "imageUrl": "/images/arnold-wesker-prime-earth.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1],
-      "frequency": 1
+      "appearances": [1, 46, 47],
+      "frequency": 3
     },
     {
       "id": "https-dc-fandom-com-wiki-basil-karlo-prime-earth",
@@ -38,8 +38,8 @@
       "imageUrl": "/images/basil-karlo-prime-earth.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1],
-      "frequency": 1
+      "appearances": [1, 16, 19, 20, 51],
+      "frequency": 5
     },
     {
       "id": "https-dc-fandom-com-wiki-circus-of-strange",
@@ -88,13 +88,15 @@
     {
       "id": "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
       "name": "Riddler",
-      "aliases": [],
+      "aliases": ["Edward Nygma", "The Riddler"],
       "url": "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
       "imageUrl": "/images/edward-nygma-prime-earth.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1],
-      "frequency": 1
+      "appearances": [
+        1, 16, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 51
+      ],
+      "frequency": 15
     },
     {
       "id": "https-dc-fandom-com-wiki-harvey-dent-prime-earth",
@@ -104,8 +106,8 @@
       "imageUrl": "/images/harvey-dent-prime-earth.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1],
-      "frequency": 1
+      "appearances": [1, 16],
+      "frequency": 2
     },
     {
       "id": "https-dc-fandom-com-wiki-james-gordon-jr-prime-earth",
@@ -137,8 +139,8 @@
       "imageUrl": "/images/jonathan-crane-prime-earth.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1],
-      "frequency": 1
+      "appearances": [1, 16, 35, 51],
+      "frequency": 4
     },
     {
       "id": "https-dc-fandom-com-wiki-victor-fries-prime-earth",
@@ -148,8 +150,8 @@
       "imageUrl": "/images/victor-fries-prime-earth.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1],
-      "frequency": 1
+      "appearances": [1, 16, 51],
+      "frequency": 3
     },
     {
       "id": "https-dc-fandom-com-wiki-victor-zsasz-prime-earth",
@@ -170,19 +172,19 @@
       "imageUrl": "/images/waylon-jones-prime-earth.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1],
-      "frequency": 1
+      "appearances": [1, 51],
+      "frequency": 2
     },
     {
       "id": "https-dc-fandom-com-wiki-court-of-owls-prime-earth",
-      "name": "The Court of Owls",
-      "aliases": ["Court of Owls"],
+      "name": "Court of Owls",
+      "aliases": ["The Court of Owls"],
       "url": "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
       "imageUrl": "/images/court-of-owls-prime-earth.jpg",
       "identitySource": "url",
       "firstAppearance": 1,
-      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-      "frequency": 11
+      "appearances": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 39, 51],
+      "frequency": 13
     },
     {
       "id": "https-dc-fandom-com-wiki-william-cobb-prime-earth",
@@ -260,6 +262,316 @@
       "firstAppearance": 12,
       "appearances": [12],
       "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-harleen-quinzel-prime-earth",
+      "name": "Harley Quinn",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Harleen_Quinzel_(Prime_Earth)",
+      "imageUrl": "/images/harleen-quinzel-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 13,
+      "appearances": [13, 14],
+      "frequency": 2
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-joker-prime-earth",
+      "name": "Joker",
+      "aliases": ["The Joker", "Red Hood One", "Eric Border"],
+      "url": "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+      "imageUrl": "/images/joker-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 13,
+      "appearances": [
+        13, 14, 15, 16, 17, 21, 22, 23, 24, 35, 36, 37, 38, 39, 40, 41
+      ],
+      "frequency": 16
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-oswald-cobblepot-prime-earth",
+      "name": "Penguin",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+      "imageUrl": "/images/oswald-cobblepot-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 16,
+      "appearances": [16, 22, 43, 44, 46, 47, 51],
+      "frequency": 7
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-marcus-row-prime-earth",
+      "name": "Marcus Row",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Marcus_Row_(Prime_Earth)",
+      "imageUrl": "/images/marcus-row-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 18,
+      "appearances": [18, 25],
+      "frequency": 2
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-reaper-prime-earth",
+      "name": "Reaper",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Reaper_(Prime_Earth)",
+      "imageUrl": "/images/reaper-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 19,
+      "appearances": [19],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-karl-helfern-prime-earth",
+      "name": "Doctor Death",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Karl_Helfern_(Prime_Earth)",
+      "imageUrl": "/images/karl-helfern-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 25,
+      "appearances": [25, 26, 29],
+      "frequency": 3
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-lucius-fox-prime-earth",
+      "name": "Lucius Fox",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Lucius_Fox_(Prime_Earth)",
+      "imageUrl": "/images/lucius-fox-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 25,
+      "appearances": [25],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-daniel-corrigan-prime-earth",
+      "name": "Dan Corrigan",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Daniel_Corrigan_(Prime_Earth)",
+      "imageUrl": "/images/daniel-corrigan-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 27,
+      "appearances": [27],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-gillian-b-loeb-prime-earth",
+      "name": "Gillian B. Loeb",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Gillian_B._Loeb_(Prime_Earth)",
+      "imageUrl": "/images/gillian-b-loeb-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 27,
+      "appearances": [27],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-gotham-city-police-department",
+      "name": "Gotham City Police Department",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Gotham_City_Police_Department",
+      "imageUrl": "/images/gotham-city-police-department.jpg",
+      "identitySource": "url",
+      "firstAppearance": 28,
+      "appearances": [28],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-selina-kyle-prime-earth",
+      "name": "Selina Kyle",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Selina_Kyle_(Prime_Earth)",
+      "imageUrl": "/images/selina-kyle-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 28,
+      "appearances": [28],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-joseph-chilton-prime-earth",
+      "name": "Joe Chill",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Joseph_Chilton_(Prime_Earth)",
+      "imageUrl": "/images/joseph-chilton-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 29,
+      "appearances": [29, 37],
+      "frequency": 2
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-arthur-curry-prime-earth",
+      "name": "Aquaman",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Arthur_Curry_(Prime_Earth)",
+      "imageUrl": "/images/arthur-curry-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 35,
+      "appearances": [35, 36],
+      "frequency": 2
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-barry-allen-prime-earth",
+      "name": "Flash",
+      "aliases": ["The Flash"],
+      "url": "https://dc.fandom.com/wiki/Barry_Allen_(Prime_Earth)",
+      "imageUrl": "/images/barry-allen-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 35,
+      "appearances": [35, 36],
+      "frequency": 2
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-diana-of-themyscira-prime-earth",
+      "name": "Wonder Woman",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Diana_of_Themyscira_(Prime_Earth)",
+      "imageUrl": "/images/diana-of-themyscira-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 35,
+      "appearances": [35, 36],
+      "frequency": 2
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-kal-el-prime-earth",
+      "name": "Superman",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Kal-El_(Prime_Earth)",
+      "imageUrl": "/images/kal-el-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 35,
+      "appearances": [35, 36],
+      "frequency": 2
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-victor-stone-prime-earth",
+      "name": "Cyborg",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Victor_Stone_(Prime_Earth)",
+      "imageUrl": "/images/victor-stone-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 36,
+      "appearances": [36],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-paul-dekker-prime-earth",
+      "name": "Crazy Quilt",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Paul_Dekker_(Prime_Earth)",
+      "imageUrl": "/images/paul-dekker-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 38,
+      "appearances": [38],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-uriah-boone-prime-earth",
+      "name": "Uriah Boone",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Uriah_Boone_(Prime_Earth)",
+      "imageUrl": "/images/uriah-boone-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 39,
+      "appearances": [39],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-mister-bloom-prime-earth",
+      "name": "Mister Bloom",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+      "imageUrl": "/images/mister-bloom-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 42,
+      "appearances": [42, 43, 45, 46, 47, 48, 49, 50],
+      "frequency": 8
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-gotham-organized-crime",
+      "name": "Gotham Organized Crime",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Gotham_Organized_Crime",
+      "imageUrl": "/images/gotham-organized-crime.jpg",
+      "identitySource": "url",
+      "firstAppearance": 46,
+      "appearances": [46, 47, 51],
+      "frequency": 3
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-black-and-whites",
+      "name": "Black and Whites",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Black_and_Whites",
+      "imageUrl": "/images/black-and-whites.jpg",
+      "identitySource": "url",
+      "firstAppearance": 46,
+      "appearances": [46, 47, 51],
+      "frequency": 3
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-roman-sionis-prime-earth",
+      "name": "Black Mask",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Roman_Sionis_(Prime_Earth)",
+      "imageUrl": "/images/roman-sionis-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 46,
+      "appearances": [46, 47, 51],
+      "frequency": 3
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-warren-white-prime-earth",
+      "name": "Great White Shark",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Warren_White_(Prime_Earth)",
+      "imageUrl": "/images/warren-white-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 46,
+      "appearances": [46, 47, 51],
+      "frequency": 3
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-demons",
+      "name": "Demonic",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Demons",
+      "imageUrl": "/images/demons.jpg",
+      "identitySource": "url",
+      "firstAppearance": 49,
+      "appearances": [49],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-daryl-gutierrez-prime-earth",
+      "name": "Daryl Gutierrez",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Daryl_Gutierrez_(Prime_Earth)",
+      "imageUrl": "/images/daryl-gutierrez-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 50,
+      "appearances": [50],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-bane-prime-earth",
+      "name": "Bane",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Bane_(Prime_Earth)",
+      "imageUrl": "/images/bane-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 51,
+      "appearances": [51],
+      "frequency": 1
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-pamela-isley-prime-earth",
+      "name": "Poison Ivy",
+      "aliases": [],
+      "url": "https://dc.fandom.com/wiki/Pamela_Isley_(Prime_Earth)",
+      "imageUrl": "/images/pamela-isley-prime-earth.jpg",
+      "identitySource": "url",
+      "firstAppearance": 51,
+      "appearances": [51],
+      "frequency": 1
     }
   ],
   "timeline": [
@@ -283,7 +595,7 @@
         "Mister Freeze",
         "Victor Zsasz",
         "Killer Croc",
-        "The Court of Owls"
+        "Court of Owls"
       ],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Arkham_Asylum",
@@ -328,7 +640,7 @@
       "issue": 2,
       "releaseDate": "October 19, 2011",
       "villainCount": 2,
-      "villains": ["The Court of Owls", "Talon"],
+      "villains": ["Court of Owls", "Talon"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)"
@@ -345,7 +657,7 @@
       "releaseDate": "November 16, 2011",
       "villainCount": 5,
       "villains": [
-        "The Court of Owls",
+        "Court of Owls",
         "Talon",
         "Alton Carver",
         "Calvin Rose",
@@ -386,7 +698,7 @@
       "issue": 4,
       "releaseDate": "December 21, 2011",
       "villainCount": 2,
-      "villains": ["The Court of Owls", "Talon"],
+      "villains": ["Court of Owls", "Talon"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)"
@@ -402,7 +714,7 @@
       "issue": 5,
       "releaseDate": "January 18, 2012",
       "villainCount": 2,
-      "villains": ["The Court of Owls", "Talon"],
+      "villains": ["Court of Owls", "Talon"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)"
@@ -418,7 +730,7 @@
       "issue": 6,
       "releaseDate": "February 15, 2012",
       "villainCount": 2,
-      "villains": ["The Court of Owls", "Talon"],
+      "villains": ["Court of Owls", "Talon"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/William_Cobb_(Prime_Earth)"
@@ -434,7 +746,7 @@
       "issue": 7,
       "releaseDate": "March 21, 2012",
       "villainCount": 2,
-      "villains": ["The Court of Owls", "Talons"],
+      "villains": ["Court of Owls", "Talons"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/Talons"
@@ -450,7 +762,7 @@
       "issue": 8,
       "releaseDate": "April 18, 2012",
       "villainCount": 2,
-      "villains": ["The Court of Owls", "Talons"],
+      "villains": ["Court of Owls", "Talons"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/Talons"
@@ -466,7 +778,7 @@
       "issue": 9,
       "releaseDate": "May 9, 2012",
       "villainCount": 3,
-      "villains": ["The Court of Owls", "Alton Carver", "Talons"],
+      "villains": ["Court of Owls", "Alton Carver", "Talons"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/Alton_Carver_(Prime_Earth)",
@@ -484,7 +796,7 @@
       "issue": 10,
       "releaseDate": "June 13, 2012",
       "villainCount": 3,
-      "villains": ["The Court of Owls", "Talons", "Lincoln March"],
+      "villains": ["Court of Owls", "Talons", "Lincoln March"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/Talons",
@@ -502,7 +814,7 @@
       "issue": 11,
       "releaseDate": "July 11, 2012",
       "villainCount": 3,
-      "villains": ["The Court of Owls", "Talons", "Lincoln March"],
+      "villains": ["Court of Owls", "Talons", "Lincoln March"],
       "villainUrls": [
         "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
         "https://dc.fandom.com/wiki/Talons",
@@ -525,6 +837,784 @@
       "villainIds": ["https-dc-fandom-com-wiki-tiger-shark-prime-earth"],
       "series": "Batman Vol 2",
       "chronologicalPosition": 12
+    },
+    {
+      "issue": 13,
+      "releaseDate": "October 10, 2012",
+      "villainCount": 2,
+      "villains": ["Harley Quinn", "Joker"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Harleen_Quinzel_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-harleen-quinzel-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 13
+    },
+    {
+      "issue": 14,
+      "releaseDate": "November 14, 2012",
+      "villainCount": 2,
+      "villains": ["Harley Quinn", "Joker"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Harleen_Quinzel_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-harleen-quinzel-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 14
+    },
+    {
+      "issue": 15,
+      "releaseDate": "December 12, 2012",
+      "villainCount": 1,
+      "villains": ["Joker"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Joker_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-joker-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 15
+    },
+    {
+      "issue": 16,
+      "releaseDate": "January 16, 2013",
+      "villainCount": 7,
+      "villains": [
+        "Clayface",
+        "Riddler",
+        "Two-Face",
+        "Scarecrow",
+        "Mister Freeze",
+        "Joker",
+        "Penguin"
+      ],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Harvey_Dent_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Jonathan_Crane_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Victor_Fries_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-basil-karlo-prime-earth",
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-harvey-dent-prime-earth",
+        "https-dc-fandom-com-wiki-jonathan-crane-prime-earth",
+        "https-dc-fandom-com-wiki-victor-fries-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth",
+        "https-dc-fandom-com-wiki-oswald-cobblepot-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 16
+    },
+    {
+      "issue": 17,
+      "releaseDate": "February 13, 2013",
+      "villainCount": 1,
+      "villains": ["Joker"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Joker_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-joker-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 17
+    },
+    {
+      "issue": 18,
+      "releaseDate": "March 13, 2013",
+      "villainCount": 1,
+      "villains": ["Marcus Row"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Marcus_Row_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-marcus-row-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 18
+    },
+    {
+      "issue": 19,
+      "releaseDate": "April 10, 2013",
+      "villainCount": 2,
+      "villains": ["Clayface", "Reaper"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Reaper_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-basil-karlo-prime-earth",
+        "https-dc-fandom-com-wiki-reaper-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 19
+    },
+    {
+      "issue": 20,
+      "releaseDate": "May 8, 2013",
+      "villainCount": 1,
+      "villains": ["Clayface"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-basil-karlo-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 20
+    },
+    {
+      "issue": 21,
+      "releaseDate": "June 12, 2013",
+      "villainCount": 2,
+      "villains": ["Riddler", "Joker"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 21,
+      "groups": [
+        {
+          "name": "Red Hood Gang",
+          "members": [
+            "Riddler",
+            "Edward Nygma",
+            "The Riddler",
+            "The Joker",
+            "Joker",
+            "Red Hood One",
+            "Eric Border"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 22,
+      "releaseDate": "July 10, 2013",
+      "villainCount": 3,
+      "villains": ["Riddler", "Joker", "Penguin"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth",
+        "https-dc-fandom-com-wiki-oswald-cobblepot-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 22,
+      "groups": [
+        {
+          "name": "Red Hood Gang",
+          "members": [
+            "Riddler",
+            "Edward Nygma",
+            "The Riddler",
+            "The Joker",
+            "Joker",
+            "Red Hood One",
+            "Eric Border",
+            "Penguin"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 23,
+      "releaseDate": "August 14, 2013",
+      "villainCount": 2,
+      "villains": ["Riddler", "Joker"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 23,
+      "groups": [
+        {
+          "name": "Red Hood Gang",
+          "members": [
+            "Riddler",
+            "Edward Nygma",
+            "The Riddler",
+            "The Joker",
+            "Joker",
+            "Red Hood One",
+            "Eric Border"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 24,
+      "releaseDate": "October 9, 2013",
+      "villainCount": 2,
+      "villains": ["Riddler", "Joker"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 24,
+      "groups": [
+        {
+          "name": "Red Hood Gang",
+          "members": [
+            "Riddler",
+            "Edward Nygma",
+            "The Riddler",
+            "The Joker",
+            "Joker",
+            "Red Hood One",
+            "Eric Border"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 25,
+      "releaseDate": "November 13, 2013",
+      "villainCount": 4,
+      "villains": ["Riddler", "Marcus Row", "Doctor Death", "Lucius Fox"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Marcus_Row_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Karl_Helfern_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Lucius_Fox_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-marcus-row-prime-earth",
+        "https-dc-fandom-com-wiki-karl-helfern-prime-earth",
+        "https-dc-fandom-com-wiki-lucius-fox-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 25
+    },
+    {
+      "issue": 26,
+      "releaseDate": "December 11, 2013",
+      "villainCount": 2,
+      "villains": ["Riddler", "Doctor Death"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Karl_Helfern_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-karl-helfern-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 26
+    },
+    {
+      "issue": 27,
+      "releaseDate": "January 22, 2014",
+      "villainCount": 3,
+      "villains": ["Riddler", "Dan Corrigan", "Gillian B. Loeb"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Daniel_Corrigan_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Gillian_B._Loeb_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-daniel-corrigan-prime-earth",
+        "https-dc-fandom-com-wiki-gillian-b-loeb-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 27
+    },
+    {
+      "issue": 28,
+      "releaseDate": "February 12, 2014",
+      "villainCount": 2,
+      "villains": ["Gotham City Police Department", "Selina Kyle"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Gotham_City_Police_Department",
+        "https://dc.fandom.com/wiki/Selina_Kyle_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-gotham-city-police-department",
+        "https-dc-fandom-com-wiki-selina-kyle-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 28
+    },
+    {
+      "issue": 29,
+      "releaseDate": "March 12, 2014",
+      "villainCount": 3,
+      "villains": ["Riddler", "Doctor Death", "Joe Chill"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Karl_Helfern_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joseph_Chilton_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-karl-helfern-prime-earth",
+        "https-dc-fandom-com-wiki-joseph-chilton-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 29
+    },
+    {
+      "issue": 30,
+      "releaseDate": "April 16, 2014",
+      "villainCount": 1,
+      "villains": ["Riddler"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-edward-nygma-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 30
+    },
+    {
+      "issue": 31,
+      "releaseDate": "May 28, 2014",
+      "villainCount": 1,
+      "villains": ["Riddler"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-edward-nygma-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 31
+    },
+    {
+      "issue": 32,
+      "releaseDate": "June 25, 2014",
+      "villainCount": 1,
+      "villains": ["Riddler"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-edward-nygma-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 32
+    },
+    {
+      "issue": 33,
+      "releaseDate": "July 23, 2014",
+      "villainCount": 1,
+      "villains": ["Riddler"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-edward-nygma-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 33
+    },
+    {
+      "issue": 34,
+      "releaseDate": "August 13, 2014",
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 34
+    },
+    {
+      "issue": 35,
+      "releaseDate": "October 8, 2014",
+      "villainCount": 6,
+      "villains": [
+        "Scarecrow",
+        "Joker",
+        "Aquaman",
+        "Flash",
+        "Wonder Woman",
+        "Superman"
+      ],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Jonathan_Crane_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Arthur_Curry_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Barry_Allen_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Diana_of_Themyscira_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Kal-El_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-jonathan-crane-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth",
+        "https-dc-fandom-com-wiki-arthur-curry-prime-earth",
+        "https-dc-fandom-com-wiki-barry-allen-prime-earth",
+        "https-dc-fandom-com-wiki-diana-of-themyscira-prime-earth",
+        "https-dc-fandom-com-wiki-kal-el-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 35,
+      "groups": [
+        {
+          "name": "Justice League",
+          "members": [
+            "Scarecrow",
+            "The Joker",
+            "Joker",
+            "Red Hood One",
+            "Eric Border",
+            "Aquaman",
+            "Flash",
+            "The Flash",
+            "Wonder Woman",
+            "Superman"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 36,
+      "releaseDate": "November 12, 2014",
+      "villainCount": 6,
+      "villains": [
+        "Joker",
+        "Aquaman",
+        "Flash",
+        "Wonder Woman",
+        "Superman",
+        "Cyborg"
+      ],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Arthur_Curry_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Barry_Allen_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Diana_of_Themyscira_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Kal-El_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Victor_Stone_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-joker-prime-earth",
+        "https-dc-fandom-com-wiki-arthur-curry-prime-earth",
+        "https-dc-fandom-com-wiki-barry-allen-prime-earth",
+        "https-dc-fandom-com-wiki-diana-of-themyscira-prime-earth",
+        "https-dc-fandom-com-wiki-kal-el-prime-earth",
+        "https-dc-fandom-com-wiki-victor-stone-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 36,
+      "groups": [
+        {
+          "name": "Justice League",
+          "members": [
+            "The Joker",
+            "Joker",
+            "Red Hood One",
+            "Eric Border",
+            "Aquaman",
+            "Flash",
+            "The Flash",
+            "Wonder Woman",
+            "Superman",
+            "Cyborg"
+          ]
+        }
+      ]
+    },
+    {
+      "issue": 37,
+      "releaseDate": "December 17, 2014",
+      "villainCount": 2,
+      "villains": ["Joker", "Joe Chill"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joseph_Chilton_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-joker-prime-earth",
+        "https-dc-fandom-com-wiki-joseph-chilton-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 37
+    },
+    {
+      "issue": 38,
+      "releaseDate": "January 28, 2015",
+      "villainCount": 2,
+      "villains": ["Joker", "Crazy Quilt"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Paul_Dekker_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-joker-prime-earth",
+        "https-dc-fandom-com-wiki-paul-dekker-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 38
+    },
+    {
+      "issue": 39,
+      "releaseDate": "February 25, 2015",
+      "villainCount": 3,
+      "villains": ["Court of Owls", "Joker", "Uriah Boone"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Joker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Uriah_Boone_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-court-of-owls-prime-earth",
+        "https-dc-fandom-com-wiki-joker-prime-earth",
+        "https-dc-fandom-com-wiki-uriah-boone-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 39
+    },
+    {
+      "issue": 40,
+      "releaseDate": "April 29, 2015",
+      "villainCount": 1,
+      "villains": ["Joker"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Joker_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-joker-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 40
+    },
+    {
+      "issue": 41,
+      "releaseDate": "June 10, 2015",
+      "villainCount": 1,
+      "villains": ["Joker"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Joker_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-joker-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 41,
+      "groups": [
+        {
+          "name": "Whisper Gang",
+          "members": ["The Joker", "Joker", "Red Hood One", "Eric Border"]
+        }
+      ]
+    },
+    {
+      "issue": 42,
+      "releaseDate": "July 8, 2015",
+      "villainCount": 1,
+      "villains": ["Mister Bloom"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-mister-bloom-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 42
+    },
+    {
+      "issue": 43,
+      "releaseDate": "August 12, 2015",
+      "villainCount": 2,
+      "villains": ["Penguin", "Mister Bloom"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-oswald-cobblepot-prime-earth",
+        "https-dc-fandom-com-wiki-mister-bloom-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 43
+    },
+    {
+      "issue": 44,
+      "releaseDate": "September 9, 2015",
+      "villainCount": 1,
+      "villains": ["Penguin"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)"
+      ],
+      "villainIds": ["https-dc-fandom-com-wiki-oswald-cobblepot-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 44
+    },
+    {
+      "issue": 45,
+      "releaseDate": "October 14, 2015",
+      "villainCount": 1,
+      "villains": ["Mister Bloom"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-mister-bloom-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 45
+    },
+    {
+      "issue": 46,
+      "releaseDate": "November 11, 2015",
+      "villainCount": 7,
+      "villains": [
+        "Ventriloquist",
+        "Penguin",
+        "Mister Bloom",
+        "Gotham Organized Crime",
+        "Black and Whites",
+        "Black Mask",
+        "Great White Shark"
+      ],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Arnold_Wesker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Gotham_Organized_Crime",
+        "https://dc.fandom.com/wiki/Black_and_Whites",
+        "https://dc.fandom.com/wiki/Roman_Sionis_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Warren_White_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-arnold-wesker-prime-earth",
+        "https-dc-fandom-com-wiki-oswald-cobblepot-prime-earth",
+        "https-dc-fandom-com-wiki-mister-bloom-prime-earth",
+        "https-dc-fandom-com-wiki-gotham-organized-crime",
+        "https-dc-fandom-com-wiki-black-and-whites",
+        "https-dc-fandom-com-wiki-roman-sionis-prime-earth",
+        "https-dc-fandom-com-wiki-warren-white-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 46
+    },
+    {
+      "issue": 47,
+      "releaseDate": "December 9, 2015",
+      "villainCount": 7,
+      "villains": [
+        "Ventriloquist",
+        "Penguin",
+        "Mister Bloom",
+        "Gotham Organized Crime",
+        "Black and Whites",
+        "Black Mask",
+        "Great White Shark"
+      ],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Arnold_Wesker_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Gotham_Organized_Crime",
+        "https://dc.fandom.com/wiki/Black_and_Whites",
+        "https://dc.fandom.com/wiki/Roman_Sionis_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Warren_White_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-arnold-wesker-prime-earth",
+        "https-dc-fandom-com-wiki-oswald-cobblepot-prime-earth",
+        "https-dc-fandom-com-wiki-mister-bloom-prime-earth",
+        "https-dc-fandom-com-wiki-gotham-organized-crime",
+        "https-dc-fandom-com-wiki-black-and-whites",
+        "https-dc-fandom-com-wiki-roman-sionis-prime-earth",
+        "https-dc-fandom-com-wiki-warren-white-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 47
+    },
+    {
+      "issue": 48,
+      "releaseDate": "January 20, 2016",
+      "villainCount": 1,
+      "villains": ["Mister Bloom"],
+      "villainUrls": ["https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)"],
+      "villainIds": ["https-dc-fandom-com-wiki-mister-bloom-prime-earth"],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 48
+    },
+    {
+      "issue": 49,
+      "releaseDate": "February 10, 2016",
+      "villainCount": 2,
+      "villains": ["Mister Bloom", "Demonic"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Demons"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-mister-bloom-prime-earth",
+        "https-dc-fandom-com-wiki-demons"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 49
+    },
+    {
+      "issue": 50,
+      "releaseDate": "March 23, 2016",
+      "villainCount": 2,
+      "villains": ["Mister Bloom", "Daryl Gutierrez"],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Mister_Bloom_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Daryl_Gutierrez_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-mister-bloom-prime-earth",
+        "https-dc-fandom-com-wiki-daryl-gutierrez-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 50
+    },
+    {
+      "issue": 51,
+      "releaseDate": "April 27, 2016",
+      "villainCount": 14,
+      "villains": [
+        "Arkham Inmates",
+        "Clayface",
+        "Riddler",
+        "Scarecrow",
+        "Mister Freeze",
+        "Killer Croc",
+        "Court of Owls",
+        "Penguin",
+        "Gotham Organized Crime",
+        "Black and Whites",
+        "Black Mask",
+        "Great White Shark",
+        "Bane",
+        "Poison Ivy"
+      ],
+      "villainUrls": [
+        "https://dc.fandom.com/wiki/Arkham_Asylum",
+        "https://dc.fandom.com/wiki/Basil_Karlo_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Edward_Nygma_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Jonathan_Crane_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Victor_Fries_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Waylon_Jones_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Court_of_Owls_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Gotham_Organized_Crime",
+        "https://dc.fandom.com/wiki/Black_and_Whites",
+        "https://dc.fandom.com/wiki/Roman_Sionis_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Warren_White_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Bane_(Prime_Earth)",
+        "https://dc.fandom.com/wiki/Pamela_Isley_(Prime_Earth)"
+      ],
+      "villainIds": [
+        "https-dc-fandom-com-wiki-arkham-asylum",
+        "https-dc-fandom-com-wiki-basil-karlo-prime-earth",
+        "https-dc-fandom-com-wiki-edward-nygma-prime-earth",
+        "https-dc-fandom-com-wiki-jonathan-crane-prime-earth",
+        "https-dc-fandom-com-wiki-victor-fries-prime-earth",
+        "https-dc-fandom-com-wiki-waylon-jones-prime-earth",
+        "https-dc-fandom-com-wiki-court-of-owls-prime-earth",
+        "https-dc-fandom-com-wiki-oswald-cobblepot-prime-earth",
+        "https-dc-fandom-com-wiki-gotham-organized-crime",
+        "https-dc-fandom-com-wiki-black-and-whites",
+        "https-dc-fandom-com-wiki-roman-sionis-prime-earth",
+        "https-dc-fandom-com-wiki-warren-white-prime-earth",
+        "https-dc-fandom-com-wiki-bane-prime-earth",
+        "https-dc-fandom-com-wiki-pamela-isley-prime-earth"
+      ],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 51
+    },
+    {
+      "issue": 52,
+      "releaseDate": "May 11, 2016",
+      "villainCount": 0,
+      "villains": [],
+      "villainUrls": [],
+      "villainIds": [],
+      "series": "Batman Vol 2",
+      "chronologicalPosition": 52
     }
   ],
   "groups": [
@@ -532,8 +1622,22 @@
       "id": "https-dc-fandom-com-wiki-whisper-gang",
       "name": "Whisper Gang",
       "url": "https://dc.fandom.com/wiki/Whisper_Gang",
-      "appearances": [3],
-      "frequency": 1
+      "appearances": [3, 41],
+      "frequency": 2
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-red-hood-gang-prime-earth",
+      "name": "Red Hood Gang",
+      "url": "https://dc.fandom.com/wiki/Red_Hood_Gang_(Prime_Earth)",
+      "appearances": [21, 22, 23, 24],
+      "frequency": 4
+    },
+    {
+      "id": "https-dc-fandom-com-wiki-justice-league-prime-earth",
+      "name": "Justice League",
+      "url": "https://dc.fandom.com/wiki/Justice_League_(Prime_Earth)",
+      "appearances": [35, 36],
+      "frequency": 2
     }
   ]
 }

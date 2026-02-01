@@ -118,11 +118,389 @@
       "releaseDate": "August 8, 2012",
       "villainsInIssue": ["Tiger Shark"],
       "villainCount": 1
+    },
+    {
+      "issueNumber": 13,
+      "chronologicalPosition": 13,
+      "series": "Batman Vol 2",
+      "releaseDate": "October 10, 2012",
+      "villainsInIssue": ["Harley Quinn", "The Joker"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 14,
+      "chronologicalPosition": 14,
+      "series": "Batman Vol 2",
+      "releaseDate": "November 14, 2012",
+      "villainsInIssue": ["Harley Quinn", "The Joker"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 15,
+      "chronologicalPosition": 15,
+      "series": "Batman Vol 2",
+      "releaseDate": "December 12, 2012",
+      "villainsInIssue": ["The Joker"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 16,
+      "chronologicalPosition": 16,
+      "series": "Batman Vol 2",
+      "releaseDate": "January 16, 2013",
+      "villainsInIssue": [
+        "Clayface",
+        "Riddler",
+        "Two-Face",
+        "Scarecrow",
+        "Mister Freeze",
+        "The Joker",
+        "Penguin"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 17,
+      "chronologicalPosition": 17,
+      "series": "Batman Vol 2",
+      "releaseDate": "February 13, 2013",
+      "villainsInIssue": ["The Joker"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 18,
+      "chronologicalPosition": 18,
+      "series": "Batman Vol 2",
+      "releaseDate": "March 13, 2013",
+      "villainsInIssue": ["Marcus Row"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 19,
+      "chronologicalPosition": 19,
+      "series": "Batman Vol 2",
+      "releaseDate": "April 10, 2013",
+      "villainsInIssue": ["Clayface", "Reaper"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 20,
+      "chronologicalPosition": 20,
+      "series": "Batman Vol 2",
+      "releaseDate": "May 8, 2013",
+      "villainsInIssue": ["Clayface"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 21,
+      "chronologicalPosition": 21,
+      "series": "Batman Vol 2",
+      "releaseDate": "June 12, 2013",
+      "villainsInIssue": ["Riddler", "The Joker"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 22,
+      "chronologicalPosition": 22,
+      "series": "Batman Vol 2",
+      "releaseDate": "July 10, 2013",
+      "villainsInIssue": ["Riddler", "The Joker", "Penguin"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 23,
+      "chronologicalPosition": 23,
+      "series": "Batman Vol 2",
+      "releaseDate": "August 14, 2013",
+      "villainsInIssue": ["Riddler", "The Joker"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 24,
+      "chronologicalPosition": 24,
+      "series": "Batman Vol 2",
+      "releaseDate": "October 9, 2013",
+      "villainsInIssue": ["Riddler", "The Joker"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 25,
+      "chronologicalPosition": 25,
+      "series": "Batman Vol 2",
+      "releaseDate": "November 13, 2013",
+      "villainsInIssue": [
+        "Riddler",
+        "Marcus Row",
+        "Doctor Death",
+        "Lucius Fox"
+      ],
+      "villainCount": 4
+    },
+    {
+      "issueNumber": 26,
+      "chronologicalPosition": 26,
+      "series": "Batman Vol 2",
+      "releaseDate": "December 11, 2013",
+      "villainsInIssue": ["Riddler", "Doctor Death"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 27,
+      "chronologicalPosition": 27,
+      "series": "Batman Vol 2",
+      "releaseDate": "January 22, 2014",
+      "villainsInIssue": ["Riddler", "Dan Corrigan", "Gillian B. Loeb"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 28,
+      "chronologicalPosition": 28,
+      "series": "Batman Vol 2",
+      "releaseDate": "February 12, 2014",
+      "villainsInIssue": ["Gotham City Police Department", "Selina Kyle"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 29,
+      "chronologicalPosition": 29,
+      "series": "Batman Vol 2",
+      "releaseDate": "March 12, 2014",
+      "villainsInIssue": ["Riddler", "Doctor Death", "Joe Chill"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 30,
+      "chronologicalPosition": 30,
+      "series": "Batman Vol 2",
+      "releaseDate": "April 16, 2014",
+      "villainsInIssue": ["Riddler"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 31,
+      "chronologicalPosition": 31,
+      "series": "Batman Vol 2",
+      "releaseDate": "May 28, 2014",
+      "villainsInIssue": ["Riddler"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 32,
+      "chronologicalPosition": 32,
+      "series": "Batman Vol 2",
+      "releaseDate": "June 25, 2014",
+      "villainsInIssue": ["Riddler"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 33,
+      "chronologicalPosition": 33,
+      "series": "Batman Vol 2",
+      "releaseDate": "July 23, 2014",
+      "villainsInIssue": ["Riddler"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 34,
+      "chronologicalPosition": 34,
+      "series": "Batman Vol 2",
+      "releaseDate": "August 13, 2014",
+      "villainsInIssue": [],
+      "villainCount": 0
+    },
+    {
+      "issueNumber": 35,
+      "chronologicalPosition": 35,
+      "series": "Batman Vol 2",
+      "releaseDate": "October 8, 2014",
+      "villainsInIssue": [
+        "Scarecrow",
+        "The Joker",
+        "Aquaman",
+        "Flash",
+        "Wonder Woman",
+        "Superman"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 36,
+      "chronologicalPosition": 36,
+      "series": "Batman Vol 2",
+      "releaseDate": "November 12, 2014",
+      "villainsInIssue": [
+        "The Joker",
+        "Aquaman",
+        "Flash",
+        "Wonder Woman",
+        "Superman",
+        "Cyborg"
+      ],
+      "villainCount": 6
+    },
+    {
+      "issueNumber": 37,
+      "chronologicalPosition": 37,
+      "series": "Batman Vol 2",
+      "releaseDate": "December 17, 2014",
+      "villainsInIssue": ["The Joker", "Joe Chill"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 38,
+      "chronologicalPosition": 38,
+      "series": "Batman Vol 2",
+      "releaseDate": "January 28, 2015",
+      "villainsInIssue": ["The Joker", "Crazy Quilt"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 39,
+      "chronologicalPosition": 39,
+      "series": "Batman Vol 2",
+      "releaseDate": "February 25, 2015",
+      "villainsInIssue": ["The Court of Owls", "The Joker", "Uriah Boone"],
+      "villainCount": 3
+    },
+    {
+      "issueNumber": 40,
+      "chronologicalPosition": 40,
+      "series": "Batman Vol 2",
+      "releaseDate": "April 29, 2015",
+      "villainsInIssue": ["The Joker"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 41,
+      "chronologicalPosition": 41,
+      "series": "Batman Vol 2",
+      "releaseDate": "June 10, 2015",
+      "villainsInIssue": ["The Joker"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 42,
+      "chronologicalPosition": 42,
+      "series": "Batman Vol 2",
+      "releaseDate": "July 8, 2015",
+      "villainsInIssue": ["Mister Bloom"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 43,
+      "chronologicalPosition": 43,
+      "series": "Batman Vol 2",
+      "releaseDate": "August 12, 2015",
+      "villainsInIssue": ["Penguin", "Mister Bloom"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 44,
+      "chronologicalPosition": 44,
+      "series": "Batman Vol 2",
+      "releaseDate": "September 9, 2015",
+      "villainsInIssue": ["Penguin"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 45,
+      "chronologicalPosition": 45,
+      "series": "Batman Vol 2",
+      "releaseDate": "October 14, 2015",
+      "villainsInIssue": ["Mister Bloom"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 46,
+      "chronologicalPosition": 46,
+      "series": "Batman Vol 2",
+      "releaseDate": "November 11, 2015",
+      "villainsInIssue": [
+        "Ventriloquist",
+        "Penguin",
+        "Mister Bloom",
+        "Gotham Organized Crime",
+        "Black and Whites",
+        "Black Mask",
+        "Great White Shark"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 47,
+      "chronologicalPosition": 47,
+      "series": "Batman Vol 2",
+      "releaseDate": "December 9, 2015",
+      "villainsInIssue": [
+        "Ventriloquist",
+        "Penguin",
+        "Mister Bloom",
+        "Gotham Organized Crime",
+        "Black and Whites",
+        "Black Mask",
+        "Great White Shark"
+      ],
+      "villainCount": 7
+    },
+    {
+      "issueNumber": 48,
+      "chronologicalPosition": 48,
+      "series": "Batman Vol 2",
+      "releaseDate": "January 20, 2016",
+      "villainsInIssue": ["Mister Bloom"],
+      "villainCount": 1
+    },
+    {
+      "issueNumber": 49,
+      "chronologicalPosition": 49,
+      "series": "Batman Vol 2",
+      "releaseDate": "February 10, 2016",
+      "villainsInIssue": ["Mister Bloom", "Demonic"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 50,
+      "chronologicalPosition": 50,
+      "series": "Batman Vol 2",
+      "releaseDate": "March 23, 2016",
+      "villainsInIssue": ["Mister Bloom", "Daryl Gutierrez"],
+      "villainCount": 2
+    },
+    {
+      "issueNumber": 51,
+      "chronologicalPosition": 51,
+      "series": "Batman Vol 2",
+      "releaseDate": "April 27, 2016",
+      "villainsInIssue": [
+        "Arkham Inmates",
+        "Clayface",
+        "Riddler",
+        "Scarecrow",
+        "Mister Freeze",
+        "Killer Croc",
+        "The Court of Owls",
+        "Penguin",
+        "Gotham Organized Crime",
+        "Black and Whites",
+        "Black Mask",
+        "Great White Shark",
+        "Bane",
+        "Poison Ivy"
+      ],
+      "villainCount": 14
+    },
+    {
+      "issueNumber": 52,
+      "chronologicalPosition": 52,
+      "series": "Batman Vol 2",
+      "releaseDate": "May 11, 2016",
+      "villainsInIssue": [],
+      "villainCount": 0
     }
   ],
   "scales": {
     "x": {
-      "domain": [1, 12],
+      "domain": [1, 52],
       "range": [60, 1180]
     },
     "y": {
@@ -153,6 +531,33 @@
     "Luka Volk": "#0984e3",
     "Talons": "#27ae60",
     "Lincoln March": "#fab1a0",
-    "Tiger Shark": "#d63031"
+    "Tiger Shark": "#d63031",
+    "Harley Quinn": "#d63031",
+    "The Joker": "#d63031",
+    "Penguin": "#9b59b6",
+    "Marcus Row": "#00cec9",
+    "Reaper": "#c0392b",
+    "Doctor Death": "#27ae60",
+    "Lucius Fox": "#45b7d1",
+    "Dan Corrigan": "#2ecc71",
+    "Gillian B. Loeb": "#00b894",
+    "Gotham City Police Department": "#e84393",
+    "Selina Kyle": "#f9ca24",
+    "Joe Chill": "#2980b9",
+    "Aquaman": "#34495e",
+    "Flash": "#ffeaa7",
+    "Wonder Woman": "#4ecdc4",
+    "Superman": "#c0392b",
+    "Cyborg": "#ffeaa7",
+    "Crazy Quilt": "#8e44ad",
+    "Uriah Boone": "#9b59b6",
+    "Mister Bloom": "#f9ca24",
+    "Gotham Organized Crime": "#4ecdc4",
+    "Black and Whites": "#2980b9",
+    "Great White Shark": "#1abc9c",
+    "Demonic": "#ff7675",
+    "Daryl Gutierrez": "#636e72",
+    "Bane": "#34495e",
+    "Poison Ivy": "#d63031"
   }
 }
