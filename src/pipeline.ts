@@ -7,6 +7,7 @@
  * Usage: npm run pipeline -- --series "Series Name" --issues 1-20
  */
 
+import log from './utils/logger';
 import { ScrapeRunner } from './utils/ScrapeRunner';
 import { ProcessRunner } from './utils/ProcessRunner';
 import { MergeRunner } from './utils/MergeRunner';
@@ -47,17 +48,18 @@ async function runPipeline(): Promise<void> {
     } else {
       issues = getDefaultIssuesForVolume(scrapeOptions.series);
     }
+    log.debug(`Issues to scrape: ${issues.join(', ')}`);
 
-    console.log(`\n${'='.repeat(70)}`);
-    console.log(`SPIDER-MAN VILLAIN TIMELINE - COMPLETE PIPELINE`);
-    console.log(`${'='.repeat(70)}\n`);
+    log.info(`\n${'='.repeat(70)}`);
+    log.info(`SPIDER-MAN VILLAIN TIMELINE - COMPLETE PIPELINE`);
+    log.info(`${'='.repeat(70)}\n`);
 
     // Step 1: Scrape
-    console.log(`📍 STEP 1: SCRAPE`);
-    console.log(`   Series: ${scrapeOptions.series}`);
-    console.log(`   Issues: ${issues[0]}-${issues[issues.length - 1]} (${issues.length} total)\n`);
+    log.info(`📍 STEP 1: SCRAPE`);
+    log.info(`   Series: ${scrapeOptions.series}`);
+    log.info(`   Issues: ${issues[0]}-${issues[issues.length - 1]} (${issues.length} total)\n`);
     
-    const scraper = new ScrapeRunner(DATA_DIR);
+    const scraper = scraperInstance || new ScrapeRunner(DATA_DIR);
     await scraper.run({
       series: scrapeOptions.series,
       issues: issues,
@@ -65,8 +67,8 @@ async function runPipeline(): Promise<void> {
     });
 
     // Step 2: Process
-    console.log(`\n📍 STEP 2: PROCESS`);
-    console.log(`   Processing ${scrapeOptions.series}...\n`);
+    log.info(`\n📍 STEP 2: PROCESS`);
+    log.info(`   Processing ${scrapeOptions.series}...\n`);
     
     const processor = new ProcessRunner(DATA_DIR);
     await processor.run({
@@ -75,15 +77,15 @@ async function runPipeline(): Promise<void> {
     });
 
     // Step 3: Merge
-    console.log(`\n📍 STEP 3: MERGE`);
-    console.log(`   Combining all series datasets...\n`);
+    log.info(`\n📍 STEP 3: MERGE`);
+    log.info(`   Combining all series datasets...\n`);
     
     const merger = new MergeRunner(DATA_DIR);
     await merger.run({});
 
     // Step 4: Publish
-    console.log(`\n📍 STEP 4: PUBLISH`);
-    console.log(`   Publishing to public/data...\n`);
+    log.info(`\n📍 STEP 4: PUBLISH`);
+    log.info(`   Publishing to public/data...\n`);
     
     const publisher = new Publisher();
     await publisher.run({
@@ -91,17 +93,17 @@ async function runPipeline(): Promise<void> {
       destDir: path.join(process.cwd(), 'public', 'data')
     });
 
-    console.log(`\n${'='.repeat(70)}`);
-    console.log(`✅ PIPELINE COMPLETE!`);
-    console.log(`${'='.repeat(70)}`);
-    console.log(`\nNext step: npm run serve`);
-    console.log(`Then browse: http://localhost:8000\n`);
+    log.info(`\n${'='.repeat(70)}`);
+    log.info(`✅ PIPELINE COMPLETE!`);
+    log.info(`${'='.repeat(70)}`);
+    log.info(`\nNext step: npm run serve`);
+    log.info(`Then browse: http://localhost:8000\n`);
 
   } catch (error) {
     if (error instanceof Error) {
-      console.error(`\n❌ Pipeline failed: ${error.message}\n`);
+      log.error(`\n❌ Pipeline failed: ${error.message}\n`);
     } else {
-      console.error(`\n❌ Pipeline failed with unknown error\n`);
+      log.error(`\n❌ Pipeline failed with unknown error\n`);
     }
     process.exit(1);
   }

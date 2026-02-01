@@ -1,3 +1,4 @@
+import logger from './logger';
 /**
  * ScrapeRunner - Handles scraping workflow
  * 
@@ -32,7 +33,7 @@ export class ScrapeRunner {
   private ensureDataDir(): void {
     if (!fs.existsSync(this.dataDir)) {
       fs.mkdirSync(this.dataDir, { recursive: true });
-      console.log(`Created data directory: ${this.dataDir}`);
+      logger.info(`Created data directory: ${this.dataDir}`);
     }
   }
 
@@ -72,10 +73,10 @@ export class ScrapeRunner {
     this.ensureDataDir();
 
     const scraper = new MarvelScraper();
-    console.log(`🕷️  Starting Marvel Fandom scraper for ${options.series}...`);
+    logger.info(`  Starting Marvel Fandom scraper for ${options.series}...`);
     
     if (options.issues.length > 0) {
-      console.log(`   Scraping ${options.issues.length} issue(s): ${this.formatIssueList(options.issues)}`);
+      logger.info(`   Scraping ${options.issues.length} issue(s): ${this.formatIssueList(options.issues)}`);
     }
 
     const rawData = await scraper.scrapeIssues(options.issues, options.series);

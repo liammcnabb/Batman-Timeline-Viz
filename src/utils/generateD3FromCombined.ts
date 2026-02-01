@@ -1,3 +1,4 @@
+import logger from './logger';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -55,9 +56,9 @@ export function generateD3ConfigFromCombined(villainsJsonPath: string, outputPat
 
     // Write output
     fs.writeFileSync(outputPath, JSON.stringify(d3Config, null, 2));
-    console.log(`✓ Generated D3 config with ${d3Data.length} data points`);
+    logger.info(`✓ Generated D3 config with ${d3Data.length} data points`);
   } catch (error) {
-    console.error('Error generating D3 config from combined data:', error);
+    logger.error(error, 'Error generating D3 config from combined data');
     throw error;
   }
 }

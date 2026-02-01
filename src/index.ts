@@ -17,12 +17,15 @@ import { Publisher } from './utils/Publisher';
 import { startStaticServer } from './utils/StaticServer';
 import { parseCommandArgs, CommandOptions } from './utils/commandParser';
 import { getDefaultIssuesForVolume } from './utils/cliParser';
+import * as log from 'loglevel';
+log.setLevel('trace');
+const logger = log;
 
 /**
  * Display help information
  */
 function showHelp(): void {
-  console.log(`
+  logger.info(`
 Spider-Man Villain Timeline - CLI Tool
 
 USAGE:
@@ -138,7 +141,7 @@ async function handleScrape(options: CommandOptions): Promise<void> {
     });
   }
 
-  console.log('\n✅ Scrape complete!');
+  logger.info('\n✅ Scrape complete!');
 }
 
 /**
@@ -156,7 +159,7 @@ async function handleProcess(options: CommandOptions): Promise<void> {
     validate: options.validate
   });
 
-  console.log('\n✅ Processing complete!');
+  logger.info('\n✅ Processing complete!');
 }
 
 /**
@@ -172,7 +175,7 @@ async function handleMerge(options: CommandOptions): Promise<void> {
     outputPath: options.out
   });
 
-  console.log('\n✅ Merge complete!');
+  logger.info('\n✅ Merge complete!');
 }
 
 /**
@@ -188,7 +191,7 @@ async function handlePublish(options: CommandOptions): Promise<void> {
     destDir: options.dest
   });
 
-  console.log('\n✅ Publish complete!');
+  logger.info('\n✅ Publish complete!');
 }
 
 /**
@@ -204,7 +207,7 @@ async function handleServe(options: CommandOptions): Promise<void> {
       verbose: false
     });
   } catch (error) {
-    console.error('Failed to start server:', error);
+    logger.error('Failed to start server:', error);
     process.exit(1);
   }
 }
@@ -236,15 +239,15 @@ async function main(): Promise<void> {
         showHelp();
         break;
       default:
-        console.error(`Unknown command: ${(options as any).command}`);
-        console.error('Run with "help" for usage information');
+        logger.error(`Unknown command: ${(options as any).command}`);
+        logger.error('Run with "help" for usage information');
         process.exit(1);
     }
   } catch (error) {
     if (error instanceof Error) {
-      console.error('❌ Error:', error.message);
+      logger.error('❌ Error:', error.message);
     } else {
-      console.error('❌ Unknown error:', error);
+      logger.error('❌ Unknown error:', error);
     }
     process.exit(1);
   }
@@ -252,7 +255,7 @@ async function main(): Promise<void> {
 
 // Run main function
 main().catch(error => {
-  console.error('Fatal error:', error);
+  logger.error('Fatal error:', error);
   process.exit(1);
 });
 

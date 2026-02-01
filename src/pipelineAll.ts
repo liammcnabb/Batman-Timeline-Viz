@@ -1,3 +1,4 @@
+import logger from './utils/logger';
 import { spawn } from 'child_process';
 
 // Use platform-correct npm executable and avoid shell so arguments stay intact
@@ -30,19 +31,19 @@ async function runCommand(
 }
 
 async function runFullPipelineForAll() {
-  console.log('\n╔════════════════════════════════════════════╗');
-  console.log('║  RUNNING FULL PIPELINE FOR ALL SERIES     ║');
-  console.log('╚════════════════════════════════════════════╝\n');
+  logger.info('\n╔════════════════════════════════════════════╗');
+  logger.info('║  RUNNING FULL PIPELINE FOR ALL SERIES     ║');
+  logger.info('╚════════════════════════════════════════════╝\n');
 
   for (let i = 0; i < SERIES.length; i++) {
     const { name, issues } = SERIES[i];
     const isLast = i === SERIES.length - 1;
 
-    console.log(`\n${'='.repeat(50)}`);
-    console.log(
+    logger.info(`\n${'='.repeat(50)}`);
+    logger.info(
       `SERIES ${i + 1}/${SERIES.length}: ${name} (Issues ${issues})`
     );
-    console.log(`${'='.repeat(50)}\n`);
+    logger.info(`${'='.repeat(50)}\n`);
 
     try {
       const exitCode = await runCommand(NPM_CMD, [
@@ -56,34 +57,32 @@ async function runFullPipelineForAll() {
       ]);
 
       if (exitCode !== 0) {
-        console.error(
-          `\n❌ Pipeline failed for ${name} with exit code ${exitCode}`
-        );
+        logger.error(`\n❌ Pipeline failed for ${name} with exit code ${exitCode}`);
         process.exit(1);
       }
 
-      console.log(`✅ Completed: ${name}\n`);
+      logger.info(`✅ Completed: ${name}\n`);
     } catch (error) {
-      console.error(`\n❌ Error running pipeline for ${name}:`, error);
+      logger.error(error, `\n❌ Error running pipeline for ${name}`);
       process.exit(1);
     }
 
     if (!isLast) {
-      console.log('Waiting before next series...');
+      logger.info('Waiting before next series...');
       await new Promise((resolve) => setTimeout(resolve, 2000));
     }
   }
 
-  console.log(`\n${'='.repeat(50)}`);
-  console.log('╔════════════════════════════════════════════╗');
-  console.log('║  ✅ FULL PIPELINE COMPLETE!               ║');
-  console.log('║  All series have been scraped, processed,  ║');
-  console.log('║  merged, and published successfully!       ║');
-  console.log('╚════════════════════════════════════════════╝');
-  console.log(`${'='.repeat(50)}\n`);
+  logger.info(`\n${'='.repeat(50)}`);
+  logger.info('╔════════════════════════════════════════════╗');
+  logger.info('║  ✅ FULL PIPELINE COMPLETE!               ║');
+  logger.info('║  All series have been scraped, processed,  ║');
+  logger.info('║  merged, and published successfully!       ║');
+  logger.info('╚════════════════════════════════════════════╝');
+  logger.info(`${'='.repeat(50)}\n`);
 }
 
 runFullPipelineForAll().catch((error) => {
-  console.error('Fatal error:', error);
+  logger.error('Fatal error:', error);
   process.exit(1);
 });

@@ -11,6 +11,8 @@ import * as path from 'path';
 
 import type { IssueData, RawVillainData, Antagonist } from '../types';
 import { isUnnamedOrInvalidAntagonist } from '../utils/nameValidation';
+import { SeriesName } from '../utils/seriesName';
+import Logger from '../utils/logger';
 
 // Configuration constants
 const MARVEL_FANDOM_BASE = 'https://dc.fandom.com';
@@ -158,7 +160,7 @@ export class MarvelScraper {
     const min = sortedIssues[0];
     const max = sortedIssues[sortedIssues.length - 1];
     
-    console.log(
+    Logger.info(
       `Starting scrape: ${sortedIssues.length} issues (${min}-${max})`
     );
 
@@ -172,16 +174,14 @@ export class MarvelScraper {
 
     for (const issueNumber of sortedIssues) {
       try {
-        console.log(`Scraping issue ${issueNumber}...`);
+        Logger.info(`Scraping issue ${issueNumber}...`);
         const issueData = await this.scrapeIssue(issueNumber);
         issues.push(issueData);
         
         // Respectful delay between requests
         await this.delay(REQUEST_DELAY_MS);
       } catch (error) {
-        console.error(
-          `Failed to scrape issue ${issueNumber}: ${error}`
-        );
+        Logger.error(error, `Failed to scrape issue ${issueNumber}`);
         // Continue with next issue rather than failing entirely
         issues.push({
           issueNumber,
@@ -191,7 +191,7 @@ export class MarvelScraper {
       }
     }
 
-    console.log(
+    Logger.info(
       `Scraped ${issues.filter(i => i.antagonists.length > 0).length}
        /${issues.length} issues successfully`
     );
@@ -278,10 +278,12 @@ export class MarvelScraper {
       };
     } catch (error) {
       if (axios.isAxiosError(error)) {
+        Logger.error(error, `HTTP Error ${error.response?.status}: ${error.message} (while scraping issue ${issueNumber} of ${this.series?.toDisplay()})`);
         throw new Error(
           `HTTP Error ${error.response?.status}: ${error.message}`
         );
       }
+      Logger.error(error, `Unknown error while scraping issue ${issueNumber} of ${this.series?.toDisplay()}`);
       throw error;
     }
   }
@@ -369,12 +371,12 @@ export class MarvelScraper {
         }
       }
     } catch (error) {
-      console.warn(
+      Logger.warn(
         `Could not parse release date for issue ${issueNumber}: ${error}`
       );
       return undefined;
     }
-    console.warn(`Release date not found for issue ${issueNumber}`);
+    Logger.warn(`Release date not found for issue ${issueNumber}`);
     return undefined;
   }
 
@@ -503,7 +505,7 @@ export class MarvelScraper {
 
       return antagonists;
     } catch (error) {
-      console.error(
+      Logger.error(
         `Error parsing HTML for issue ${issueNumber}: ${error}`
       );
       return [];
@@ -570,7 +572,7 @@ export class MarvelScraper {
       
       return undefined;
     } catch (error) {
-      console.warn(
+      Logger.warn(
         `Could not parse chronological placement for issue ${issueNumber}: ${error}`
       );
       return undefined;
@@ -604,12 +606,12 @@ export class MarvelScraper {
       }
 
       try {
-          console.log(`[scrapeVillainImages] Fetching: ${antagonist.name} (${antagonist.url})`);
+          Logger.trace(`Fetching: ${antagonist.name} (${antagonist.url})`);
           const response = await this.axiosClient.get(antagonist.url);
           if (response.data) {
             const imageUrl = this.parseCharacterImage(response.data);
             if (imageUrl) {
-              console.log(`[scrapeVillainImages] Image URL found for: ${antagonist.name} -> ${imageUrl}`);
+              Logger.trace(`Image URL found for: ${antagonist.name} -> ${imageUrl}`);
               // Use page URL slug to disambiguate characters with the same display name
               const filename = this.buildImageFilename(antagonist.name, imageUrl, antagonist.url);
               const targetPath = path.join(IMAGE_DIR, filename);
@@ -617,23 +619,23 @@ export class MarvelScraper {
 
               if (fs.existsSync(targetPath)) {
                 antagonist.imageUrl = savedPath; // reuse cached image without logging
-                console.log(`[scrapeVillainImages] Image already cached for: ${antagonist.name}`);
+                Logger.trace(`Image already cached for: ${antagonist.name}`);
               } else {
-                console.log(`[scrapeVillainImages] Downloading image for: ${antagonist.name}`);
+                Logger.trace(`Downloading image for: ${antagonist.name}`);
                 const downloadedPath = await this.saveImageLocally(imageUrl, filename);
                 antagonist.imageUrl = downloadedPath; // use local path for reliable loading
               }
             } else {
-              console.warn(`[scrapeVillainImages] No image found for ${antagonist.name} at ${antagonist.url}`);
+              Logger.warn(`No image found for ${antagonist.name} at ${antagonist.url}`);
             }
           } else {
-            console.warn(`[scrapeVillainImages] No response data for ${antagonist.name} at ${antagonist.url}`);
+            Logger.warn(`No response data for ${antagonist.name} at ${antagonist.url}`);
           }
 
           // Respectful delay between image scrapes
           await this.delay(REQUEST_DELAY_MS);
       } catch (error) {
-          console.error(`[scrapeVillainImages] Error scraping image for ${antagonist.name}:`, error);
+          Logger.error(error, `Could not scrape image for ${antagonist.name}`);
         // Continue with other villains even if one fails
       }
     }
@@ -685,7 +687,7 @@ export class MarvelScraper {
       
       return undefined;
     } catch (error) {
-      console.warn(`Error parsing character image: ${error}`);
+      Logger.warn(`Error parsing character image: ${error}`);
       return undefined;
     }
   }
